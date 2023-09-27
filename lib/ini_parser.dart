@@ -17,8 +17,9 @@ import 'package:ini_parser/sections/table_editor_parser.dart';
 import 'package:ini_parser/sections/ui_dialogs_parser.dart';
 
 class INIParser {
-  INIParser(this._raw);
-  final String _raw;
+  INIParser(this.raw);
+
+  final String raw;
   final List<String> lines = [];
   final List<String> settings = [];
   final Map<String, String> defines = {};
@@ -34,8 +35,8 @@ class INIParser {
     lines.clear();
     settings.clear();
 
-    final preProcessor =
-        PreProcessor(raw: _raw, settings: profileSettings ?? [])..process();
+    final preProcessor = PreProcessor(raw: raw, settings: profileSettings ?? [])
+      ..process();
     lines.addAll(preProcessor.lines);
     settings.addAll(preProcessor.settings);
     defines.addAll(preProcessor.defines);
