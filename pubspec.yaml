@@ -1,0 +1,25 @@
+name: ini_parser
+description: INI parser for HyperTuner written in Dart.
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.8.2
+  text_parser: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  spec: ^0.2.2
+  very_good_analysis: ^5.0.0+1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
