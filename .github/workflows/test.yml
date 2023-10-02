@@ -29,10 +29,10 @@ jobs:
       #   run: genhtml coverage/lcov.info -o coverage > coverage/summary.txt
       # - name: Check coverage level
       #   run: dart run scripts/coverage.dart
-      - name: Setup LCOV
-        run: |
-          sudo apt-get -y install lcov
-          lcov --version
+      # - name: Setup LCOV
+      #   run: |
+      #     sudo apt-get -y install lcov
+      #     lcov --version
       # - name: Report code coverage
       #   uses: zgosalvez/github-actions-report-lcov@v3
       #   with:
