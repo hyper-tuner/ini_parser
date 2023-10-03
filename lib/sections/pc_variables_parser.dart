@@ -3,7 +3,6 @@ import 'package:ini_parser/models/ini_config.dart';
 import 'package:ini_parser/parsing_exception.dart';
 import 'package:ini_parser/patterns.dart';
 import 'package:ini_parser/section.dart';
-import 'package:ini_parser/utils.dart';
 import 'package:text_parser/text_parser.dart';
 
 class PcVariablesParser {
@@ -45,8 +44,8 @@ class PcVariablesParser {
 
   void _parsePcVariable(List<String> result) {
     final name = result.first;
-    final type = Utils.toConstantType(result[1]);
-    final size = Utils.toConstantSize(result[2]);
+    final type = result[1].toConstantType();
+    final size = result[2].toConstantSize();
     PcVariable pcVariable;
 
     switch (type) {
