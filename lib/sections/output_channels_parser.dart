@@ -3,7 +3,6 @@ import 'package:ini_parser/models/ini_config.dart';
 import 'package:ini_parser/parsing_exception.dart';
 import 'package:ini_parser/patterns.dart';
 import 'package:ini_parser/section.dart';
-import 'package:ini_parser/utils.dart';
 import 'package:text_parser/text_parser.dart';
 
 class OutputChannelsParser {
@@ -34,7 +33,7 @@ class OutputChannelsParser {
         .toList();
 
     // coolant = { (coolantRaw - 40) * 1.8 + 32 }
-    if (Utils.isExpression(result[1])) {
+    if (result[1].isExpression()) {
       _outputChannels.channels.add(
         OutputChannelDynamic(
           name: result[0],
@@ -57,8 +56,8 @@ class OutputChannelsParser {
 
   void _parseChannel(List<String> result) {
     final name = result[0];
-    final type = Utils.toConstantType(result[1]);
-    final size = Utils.toConstantSize(result[2]);
+    final type = result[1].toConstantType();
+    final size = result[2].toConstantSize();
     final offset = result[3].parseInt();
     OutputChannel channel;
 
