@@ -24,7 +24,7 @@ jobs:
           cache: true
       - run: flutter pub get
       - name: Analyze Dart
-        uses: zgosalvez/github-actions-analyze-dart@v2
+        uses: zgosalvez/github-actions-analyze-dart@v3
         with:
           fail-on-infos: true
           fail-on-warnings: true
