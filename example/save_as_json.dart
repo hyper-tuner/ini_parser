@@ -24,12 +24,8 @@ void main() async {
         'test/data/${fileName['ecosystem']}/ini/${fileName['name']}.ini',
       ),
     ).readAsStringSync();
-    final parser = INIParser(raw);
-
-    final config = await parser.parse();
-
-    const encoder = JsonEncoder.withIndent('  ');
-    final json = encoder.convert(config);
+    final config = await INIParser(raw).parse();
+    final json = const JsonEncoder.withIndent('  ').convert(config);
 
     File(
       p.join(
