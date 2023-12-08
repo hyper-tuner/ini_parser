@@ -45,31 +45,34 @@ class INIParser {
       _parseSections(line);
     }
 
-    await Future.wait([
-      _parseHeader(),
-      _parseSettingGroups(),
-      _parsePcVariables(),
-      _parseConstants(),
-      _parseOutputChannels(),
-      _parseConstantsExtensions(),
-      _parseTableEditor(),
-      _parseGaugeConfigurations(),
-      _parseControllerCommands(),
-      _parseCurveEditor(),
-      _parseUiDialogs(),
-      _parseMenu(),
-      // _parseKeyActions(),
-      _parseDatalog(),
-      _parseFrontPage(),
-      // _parseEventTriggers(),
-      // _parseVeAnalyze(),
-      // _parseWueAnalyze(),
-      // _parseTuning(),
-      // _parseReferenceTables(),
-      // _parseTools(),
-      // _parseLoggerDefinition(),
-      _parseContextHelp(),
-    ]);
+    await Future.wait(
+      [
+        _parseHeader(),
+        _parseSettingGroups(),
+        _parsePcVariables(),
+        _parseConstants(),
+        _parseOutputChannels(),
+        _parseConstantsExtensions(),
+        _parseTableEditor(),
+        _parseGaugeConfigurations(),
+        _parseControllerCommands(),
+        _parseCurveEditor(),
+        _parseUiDialogs(),
+        _parseMenu(),
+        // _parseKeyActions(),
+        _parseDatalog(),
+        _parseFrontPage(),
+        // _parseEventTriggers(),
+        // _parseVeAnalyze(),
+        // _parseWueAnalyze(),
+        // _parseTuning(),
+        // _parseReferenceTables(),
+        // _parseTools(),
+        // _parseLoggerDefinition(),
+        _parseContextHelp(),
+      ],
+      eagerError: true,
+    );
 
     return _config;
   }
