@@ -1072,7 +1072,6 @@ class UIDialog {
   final String label;
   UIDialogLayout? layout;
   String? topicHelp;
-  String? webHelp;
   List<UIDialogItem> items = [];
 
   Map<String, dynamic> toJson() {
@@ -1081,7 +1080,6 @@ class UIDialog {
       'label': label,
       'layout': layout,
       'topicHelp': topicHelp,
-      'webHelp': webHelp,
       'items': items.map((i) => i.toJson()).toList(),
     };
   }

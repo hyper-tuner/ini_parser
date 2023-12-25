@@ -17828,7 +17828,6 @@
         "label": "Speeduino Board",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "!This is a critical setting!",
@@ -17877,7 +17876,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "std_injection",
@@ -17896,7 +17894,6 @@
         "label": "Oddfire Angles",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Channel 2 angle",
@@ -17920,7 +17917,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "engine_constants_northeast",
@@ -17939,7 +17935,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "!Warning: The board you have selected may not have enough channels for sequential fuel!",
@@ -17953,7 +17948,6 @@
         "label": "",
         "layout": "border",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Engine_Constants",
-        "webHelp": null,
         "items": [
           {
             "name": "engine_constants_warning",
@@ -17977,7 +17971,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Flex Fuel Sensor",
@@ -18007,7 +18000,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "flex_fuel_curve",
@@ -18026,7 +18018,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "flex_boost_curve",
@@ -18040,7 +18031,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "flexFuelWest",
@@ -18059,7 +18049,6 @@
         "label": "Fuel Sensor Settings",
         "layout": "border",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Flex_Fuel",
-        "webHelp": null,
         "items": [
           {
             "name": "flexFuelSettings",
@@ -18078,7 +18067,6 @@
         "label": "Knock Windows",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "knock_window_angle_curve",
@@ -18097,7 +18085,6 @@
         "label": "Settings",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Knock Mode",
@@ -18126,7 +18113,6 @@
         "label": "Detection and Response",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Detection",
@@ -18205,7 +18191,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "knock_settings_west",
@@ -18224,7 +18209,6 @@
         "label": "",
         "layout": "border",
         "topicHelp": "http://speeduino.com/wiki/index.php/Knock",
-        "webHelp": null,
         "items": [
           {
             "name": "knock_settings_top",
@@ -18243,7 +18227,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Speed ratio 1",
@@ -18262,7 +18245,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Speed ratio 2",
@@ -18281,7 +18263,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Speed ratio 3",
@@ -18300,7 +18281,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Speed ratio 4",
@@ -18319,7 +18299,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Speed ratio 5",
@@ -18338,7 +18317,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Speed ratio 6",
@@ -18357,7 +18335,6 @@
         "label": "Gear Detection",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "After setting 'Pulses per km/mile' above",
@@ -18406,7 +18383,6 @@
         "label": "VSS Calibration",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Pulses Per KM",
@@ -18430,7 +18406,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/VSS",
-        "webHelp": null,
         "items": [
           {
             "label": "VSS Input Mode",
@@ -18459,7 +18434,6 @@
         "label": "Tacho",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output pin",
@@ -18488,7 +18462,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enrichment mode",
@@ -18532,7 +18505,6 @@
         "label": "Acceleration Enrichment cold adjustment",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Cold adjustment",
@@ -18556,7 +18528,6 @@
         "label": "Deceleration Fuel Cutoff (DFCO)",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enabled",
@@ -18595,7 +18566,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "pump_ae_Graph",
@@ -18635,7 +18605,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "time_accel_tpsdot_curve",
@@ -18654,7 +18623,6 @@
         "label": "Acceleration Enrichment",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "accelEnrichments_aeSettings",
@@ -18673,7 +18641,6 @@
         "label": "Acceleration Enrichment",
         "layout": null,
         "topicHelp": "http://speeduino.com/wiki/index.php/Acceleration_Wizard",
-        "webHelp": null,
         "items": [
           {
             "name": "accelEnrichments_north",
@@ -18702,7 +18669,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "veTable1Tbl",
@@ -18716,7 +18682,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Multiply VE value by MAP ratio",
@@ -18740,7 +18705,6 @@
         "label": "VE Table",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "veTableDialog_north",
@@ -18759,7 +18723,6 @@
         "label": "Switch Conditions",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Use secondary table when:",
@@ -18778,7 +18741,6 @@
         "label": "Input Options",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Use secondary table when pin",
@@ -18802,7 +18764,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Secondary fuel table mode",
@@ -18831,7 +18792,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTable2Tbl",
@@ -18845,7 +18805,6 @@
         "label": "Fuel Table 2",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTable2Dialog_north",
@@ -18864,7 +18823,6 @@
         "label": "Switch Conditions",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Use secondary table when:",
@@ -18883,7 +18841,6 @@
         "label": "Input Options",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Use secondary table when pin",
@@ -18907,7 +18864,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Secondary advance table mode",
@@ -18936,7 +18892,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "spark2Tbl",
@@ -18950,7 +18905,6 @@
         "label": "Spark Table 2",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "sparkTable2Dialog_north",
@@ -18969,7 +18923,6 @@
         "label": "Injector close angles",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "injector_timing_curve",
@@ -18983,7 +18936,6 @@
         "label": "Injector opening time",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Injector Open Time",
@@ -19007,7 +18959,6 @@
         "label": "Injector Characteristics",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Injector_Characteristics",
-        "webHelp": null,
         "items": [
           {
             "label": "Injector Duty Limit",
@@ -19031,7 +18982,6 @@
         "label": "",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/O2",
-        "webHelp": null,
         "items": [
           {
             "label": "Sensor Type",
@@ -19110,7 +19060,6 @@
         "label": "Fan Settings",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Thermo_fan",
-        "webHelp": null,
         "items": [
           {
             "label": "Fan Mode",
@@ -19159,7 +19108,6 @@
         "label": "PWM Fan Curve",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "pwm_fan_curve",
@@ -19173,7 +19121,6 @@
         "label": "Stepper Idle",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Step time (ms)",
@@ -19212,7 +19159,6 @@
         "label": "PWM Idle",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Number of outputs",
@@ -19241,7 +19187,6 @@
         "label": "Closed loop Idle",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "P",
@@ -19285,7 +19230,6 @@
         "label": "Idle Settings",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Idle",
-        "webHelp": null,
         "items": [
           {
             "label": "Idle control type",
@@ -19329,7 +19273,6 @@
         "label": "Idle Up Input Settings",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Idle Up Enabled",
@@ -19358,7 +19301,6 @@
         "label": "Idle Up Output Settings",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Idle Up Output Enabled",
@@ -19382,7 +19324,6 @@
         "label": "Idle Up Settings",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "idleUpInputSettingsPanel",
@@ -19401,7 +19342,6 @@
         "label": "Fuel pump",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Fuel pump pin",
@@ -19420,7 +19360,6 @@
         "label": "Cranking Enrichment",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "cranking_enrich_curve",
@@ -19444,7 +19383,6 @@
         "label": "Cranking Timing",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Cranking advance Angle",
@@ -19473,7 +19411,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Cranking RPM (Max)",
@@ -19507,7 +19444,6 @@
         "label": "Priming Pulsewidth",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "priming_pw_curve",
@@ -19521,7 +19457,6 @@
         "label": "Cranking Settings",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Cranking",
-        "webHelp": null,
         "items": [
           {
             "name": "crankingOptions",
@@ -19545,7 +19480,6 @@
         "label": "Enrichment amount (%)",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Defines the fuel enrichment percentage after start.",
@@ -19574,7 +19508,6 @@
         "label": "Duration (s)",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "How long time the After Start Enrichment is applied in seconds.",
@@ -19603,7 +19536,6 @@
         "label": "Afterstart Enrichment(ASE)",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Time and duration curves share common coolant values",
@@ -19627,7 +19559,6 @@
         "label": "Trigger Settings",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/decoders",
-        "webHelp": null,
         "items": [
           {
             "label": "Trigger Pattern",
@@ -19726,7 +19657,6 @@
         "label": "Locked timing",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enabled Fixed/Locked timing",
@@ -19750,7 +19680,6 @@
         "label": "New Ignition Mode",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "This option is currently will improve accuracy on most compatible triggers",
@@ -19774,7 +19703,6 @@
         "label": "Spark Settings",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Spark_Settings",
-        "webHelp": null,
         "items": [
           {
             "label": "!Warning: The board you have selected may not have enough channels for sequential ignition!",
@@ -19818,7 +19746,6 @@
         "label": "Dwell Settings",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Dwell",
-        "webHelp": null,
         "items": [
           {
             "label": "Cranking dwell",
@@ -19902,7 +19829,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Idle advance mode",
@@ -19961,7 +19887,6 @@
         "label": "Idle Advance Settings",
         "layout": "xAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/IdleAdvance",
-        "webHelp": null,
         "items": [
           {
             "name": "idleAdvanceSettings_east",
@@ -19985,7 +19910,6 @@
         "label": "Rotary Ignition",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Ignition Configuration",
@@ -20004,7 +19928,6 @@
         "label": "Boost Cut",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enable Boost limit",
@@ -20023,7 +19946,6 @@
         "label": "Boost by Gear",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enable Boost by Gear",
@@ -20067,7 +19989,6 @@
         "label": "Closed loop initial duty",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Base duty cycle to be used for a given boost target",
@@ -20086,7 +20007,6 @@
         "label": "Primary Boost table",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "In open loop mode",
@@ -20110,7 +20030,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Mode",
@@ -20134,7 +20053,6 @@
         "label": "Coolant Based Rev Limit",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "coolant_prot_curve",
@@ -20148,7 +20066,6 @@
         "label": "Rev Limiter",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Rev Limiter",
@@ -20202,7 +20119,6 @@
         "label": "Oil Pressure",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Oil Pressure Protection",
@@ -20221,7 +20137,6 @@
         "label": "AFR Protection",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "AFR protection is used to prevent engine from running lean",
@@ -20290,7 +20205,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Protection Cut",
@@ -20319,7 +20233,6 @@
         "label": "Engine Protection and Limiters",
         "layout": "xAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Rev_Limits",
-        "webHelp": null,
         "items": [
           {
             "name": "engineProtectionWest",
@@ -20333,7 +20246,6 @@
         "label": "Clutch input",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Clutch Input Pin",
@@ -20362,7 +20274,6 @@
         "label": "Launch Control / Flat shift",
         "layout": "yAxis",
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Launch_Flatshift",
-        "webHelp": null,
         "items": [
           {
             "name": "clutchInput",
@@ -20431,7 +20342,6 @@
         "label": "Stage 1",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Nitrous Output Pin",
@@ -20470,7 +20380,6 @@
         "label": "Stage 2",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Nitrous Output Pin",
@@ -20509,7 +20418,6 @@
         "label": "Settings",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Nitrous Mode",
@@ -20553,7 +20461,6 @@
         "label": "Nitrous",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Nitrous_Control",
-        "webHelp": null,
         "items": [
           {
             "name": "NitrousMain",
@@ -20577,7 +20484,6 @@
         "label": "OLED Display",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Display Type",
@@ -20621,7 +20527,6 @@
         "label": "Calibrate voltage reading",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Sensor_Calibration",
-        "webHelp": null,
         "items": [
           {
             "label": "Battery Voltage reading offset",
@@ -20636,7 +20541,6 @@
         "label": "Calibrate MAP",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Sensor_Calibration",
-        "webHelp": null,
         "items": [
           {
             "label": "#MAP Sensor",
@@ -20978,7 +20882,6 @@
         "label": "Analog sensor filters",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "The values here set the amount of filtering to apply to each analog input",
@@ -21049,7 +20952,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enabled",
@@ -21098,7 +21000,6 @@
         "label": "Fuel Pressure",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelPressureGauge",
@@ -21116,7 +21017,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enabled",
@@ -21165,7 +21065,6 @@
         "label": "Oil Pressure",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "oilPressureGauge",
@@ -21183,7 +21082,6 @@
         "label": "Pressure Transducers",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Sensor_Calibration",
-        "webHelp": null,
         "items": [
           {
             "name": "fuelPressureDialog",
@@ -21202,7 +21100,6 @@
         "label": "Boost Control",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Boost_Control",
-        "webHelp": null,
         "items": [
           {
             "label": "Boost Control Enabled",
@@ -21302,7 +21199,6 @@
         "label": "Second VVT output",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "VVT2 Control Enabled",
@@ -21336,7 +21232,6 @@
         "label": "Closed loop",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Increased duty direction",
@@ -21410,7 +21305,6 @@
         "label": "VVT Control",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "VVT Control Enabled",
@@ -21475,7 +21369,6 @@
         "label": "WMI Control",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Experimental!",
@@ -21609,7 +21502,6 @@
         "label": "Warmup Enrichment (WUE) - Percent Multiplier",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "warmup_curve",
@@ -21623,7 +21515,6 @@
         "label": "Channel #1",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable1Tbl",
@@ -21637,7 +21528,6 @@
         "label": "Channel #2",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable2Tbl",
@@ -21651,7 +21541,6 @@
         "label": "Channel #3",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable3Tbl",
@@ -21665,7 +21554,6 @@
         "label": "Channel #4",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable4Tbl",
@@ -21679,7 +21567,6 @@
         "label": "Channel #5",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable5Tbl",
@@ -21693,7 +21580,6 @@
         "label": "Channel #6",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable6Tbl",
@@ -21707,7 +21593,6 @@
         "label": "Channel #7",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable7Tbl",
@@ -21721,7 +21606,6 @@
         "label": "Channel #8",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "fuelTrimTable8Tbl",
@@ -21735,7 +21619,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "inj_trim1TblTitle",
@@ -21754,7 +21637,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "inj_trim3TblTitle",
@@ -21773,7 +21655,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "inj_trim5TblTitle",
@@ -21792,7 +21673,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "inj_trim7TblTitle",
@@ -21811,7 +21691,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Individual fuel trim enabled",
@@ -21825,7 +21704,6 @@
         "label": "Injector Cyl 1-4 Trims",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "inj_trim_enable",
@@ -21849,7 +21727,6 @@
         "label": "Injector Cyl 5-8 Trims",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "inj_trim_enable",
@@ -21873,7 +21750,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Staging enabled",
@@ -21902,7 +21778,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "stagingTbl",
@@ -21916,7 +21791,6 @@
         "label": "Staged injection",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/configuration/Staged_Injection",
-        "webHelp": null,
         "items": [
           {
             "name": "stagingTableDialog_north",
@@ -21935,7 +21809,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "WARNING! USE AT YOUR OWN RISK. INCORRECT USE WILL DAMAGE YOUR HARDWARE!",
@@ -21959,7 +21832,6 @@
         "label": "Enable Test Controls",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enable Test Mode",
@@ -21978,7 +21850,6 @@
         "label": "Injector CH1",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22002,7 +21873,6 @@
         "label": "Injector CH2",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22026,7 +21896,6 @@
         "label": "Injector CH3",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22050,7 +21919,6 @@
         "label": "Injector CH4",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22074,7 +21942,6 @@
         "label": "Injector CH5",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22098,7 +21965,6 @@
         "label": "Injector CH6",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22122,7 +21988,6 @@
         "label": "Injector CH7",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22146,7 +22011,6 @@
         "label": "Injector CH8",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22170,7 +22034,6 @@
         "label": "Injector Driver Output Test",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "outputtestinj1",
@@ -22219,7 +22082,6 @@
         "label": "Spark CH1",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22243,7 +22105,6 @@
         "label": "Spark CH2",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22267,7 +22128,6 @@
         "label": "Spark CH3",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22291,7 +22151,6 @@
         "label": "Spark CH4",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22315,7 +22174,6 @@
         "label": "Spark CH5",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22339,7 +22197,6 @@
         "label": "Spark CH6",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22363,7 +22220,6 @@
         "label": "Spark CH7",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22387,7 +22243,6 @@
         "label": "Spark CH8",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Off",
@@ -22411,7 +22266,6 @@
         "label": "Spark Driver Output Test",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "outputtestspk1",
@@ -22460,7 +22314,6 @@
         "label": "Test Output Hardware",
         "layout": null,
         "topicHelp": "https://wiki.speeduino.com/en/Hardware_testing_page",
-        "webHelp": null,
         "items": [
           {
             "name": "enableoutputtestbuttons",
@@ -22489,7 +22342,6 @@
         "label": "STM32 Commands",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Reboot to system",
@@ -22508,7 +22360,6 @@
         "label": "CAN Broadcasting menu",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "BMW Instrument Cluster Broadcast",
@@ -22527,7 +22378,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "If Secondary Serial or Internal CANBUS is DISABLED then any input channel assigned to that external source will NOT function",
@@ -22541,7 +22391,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Input Alias",
@@ -22635,7 +22484,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "CAN Input Channel on/off",
@@ -22809,7 +22657,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Source CAN Address",
@@ -22903,7 +22750,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "source data start byte",
@@ -22997,7 +22843,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Input Parameter Number of Bytes",
@@ -23091,7 +22936,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Serial/CAN",
@@ -23345,7 +23189,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -23359,7 +23202,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "canAuxinput_alias",
@@ -23423,7 +23265,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": "http://speeduino.com/wiki/index.php/Secondary_Serial_IO_interface#Read_external_analog_data",
-        "webHelp": null,
         "items": [
           {
             "name": "Auxin_north",
@@ -23442,7 +23283,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Input Alias",
@@ -23496,7 +23336,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "CAN Output Channel on/off",
@@ -23550,7 +23389,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Parameter Group",
@@ -23604,7 +23442,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Parameter Start Byte",
@@ -23658,7 +23495,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Parameter Number of Bytes",
@@ -23712,7 +23548,6 @@
         "label": "",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -23726,7 +23561,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "canAuxoutput_alias",
@@ -23780,7 +23614,6 @@
         "label": "CAN Data Out",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Enable CanBus data Output",
@@ -23794,7 +23627,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": "",
-        "webHelp": null,
         "items": [
           {
             "name": "Canout_config2",
@@ -23813,7 +23645,6 @@
         "label": "CanBus/Secondary Serial IO interface",
         "layout": null,
         "topicHelp": "http://speeduino.com/wiki/index.php/Secondary_Serial_IO_interface",
-        "webHelp": null,
         "items": [
           {
             "label": "Enable Second Serial",
@@ -23852,7 +23683,6 @@
         "label": "Secondary Serial IO interface",
         "layout": null,
         "topicHelp": "http://speeduino.com/wiki/index.php/Serial3_IO_interface",
-        "webHelp": null,
         "items": [
           {
             "label": "Enable Second Serial",
@@ -23891,7 +23721,6 @@
         "label": "Reset Control",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Control Type",
@@ -23910,7 +23739,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Source",
@@ -24084,7 +23912,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Input Alias",
@@ -24178,7 +24005,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Aux Input Channel Enable",
@@ -24352,7 +24178,6 @@
         "label": "Auxiliary Input Configuration",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "Auxinput_alias",
@@ -24376,7 +24201,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "Auxin_north",
@@ -24395,7 +24219,6 @@
         "label": "Gauge Limits",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#RPM",
@@ -24464,7 +24287,6 @@
         "label": "I/O Summary",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": []
       },
       {
@@ -24472,7 +24294,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24496,7 +24317,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24520,7 +24340,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24544,7 +24363,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24568,7 +24386,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24592,7 +24409,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24616,7 +24432,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24640,7 +24455,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24664,7 +24478,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24688,7 +24501,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24712,7 +24524,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24736,7 +24547,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24760,7 +24570,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24784,7 +24593,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24808,7 +24616,6 @@
         "label": "Condition 1",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24832,7 +24639,6 @@
         "label": "Condition 2",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24856,7 +24662,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24875,7 +24680,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24894,7 +24698,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24913,7 +24716,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24932,7 +24734,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24951,7 +24752,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24970,7 +24770,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -24989,7 +24788,6 @@
         "label": "",
         "layout": "xAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "",
@@ -25008,7 +24806,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25027,7 +24824,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25046,7 +24842,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25065,7 +24860,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25084,7 +24878,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25103,7 +24896,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25122,7 +24914,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25141,7 +24932,6 @@
         "label": "Limit time active",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "#Set 0.0 to disable the limit",
@@ -25160,7 +24950,6 @@
         "label": "Rule 1",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25214,7 +25003,6 @@
         "label": "Rule 2",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25268,7 +25056,6 @@
         "label": "Rule 3",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25322,7 +25109,6 @@
         "label": "Rule 4",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25376,7 +25162,6 @@
         "label": "Rule 5",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25430,7 +25215,6 @@
         "label": "Rule 6",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25484,7 +25268,6 @@
         "label": "Rule 7",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25538,7 +25321,6 @@
         "label": "Rule 8",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Output Pin Num",
@@ -25592,7 +25374,6 @@
         "label": "",
         "layout": "card",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "prgm_out_rules_1",
@@ -25641,7 +25422,6 @@
         "label": "",
         "layout": "yAxis",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Select Rule Number",
@@ -25660,7 +25440,6 @@
         "label": "Real Time Clock",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Real Time Clock mode",
@@ -25679,7 +25458,6 @@
         "label": "Log Configuration",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Logger type",
@@ -25708,7 +25486,6 @@
         "label": "On boot",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "On Boot",
@@ -25727,7 +25504,6 @@
         "label": "RPM",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "RPM",
@@ -25751,7 +25527,6 @@
         "label": "Engine protection",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Engine protection",
@@ -25765,7 +25540,6 @@
         "label": "External Switch",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Board pin",
@@ -25784,7 +25558,6 @@
         "label": "Real Time Clock",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "label": "Mode",
@@ -25803,7 +25576,6 @@
         "label": "Triggers",
         "layout": null,
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "onboard_log_trigger_boot",
@@ -25832,7 +25604,6 @@
         "label": "On-board logger",
         "layout": "border",
         "topicHelp": null,
-        "webHelp": null,
         "items": [
           {
             "name": "onboard_log_basic_setup",
@@ -25851,7 +25622,6 @@
         "label": "",
         "layout": "border",
         "topicHelp": null,
-        "webHelp": "https://wiki.speeduino.com/",
         "items": [
           {
             "name": "engine_constants_warning",

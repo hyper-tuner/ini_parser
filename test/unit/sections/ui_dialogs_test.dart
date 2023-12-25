@@ -11,7 +11,6 @@ void main() {
 [UserDefined]
   dialog = injTest_l, "Output test modes", yAxis
     topicHelp = "baseHelp"
-    webHelp = "https://wiki.speeduino.com/"
 
     field = "The values here set the amount of filtering to apply to each analog input"
     field = "#Most setups will NOT require changes to the default filter values"
@@ -70,7 +69,6 @@ void main() {
         expect(dialog.label).toEqual('Output test modes');
         expect(dialog.layout).toEqual(UIDialogLayout.yAxis);
         expect(dialog.topicHelp).toEqual('baseHelp');
-        expect(dialog.webHelp).toEqual('https://wiki.speeduino.com/');
 
         final items = dialog.items;
 

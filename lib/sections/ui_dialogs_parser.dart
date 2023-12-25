@@ -74,8 +74,6 @@ class UiDialogsParser {
     switch (name) {
       case 'topicHelp':
         _parseTopicHelp(result);
-      case 'webHelp':
-        _parseWebHelp(result);
       case 'field':
         _parseField(result);
       case 'panel':
@@ -106,10 +104,6 @@ class UiDialogsParser {
 
   void _parseTopicHelp(List<String> result) {
     _currentDialog!.topicHelp = result[1];
-  }
-
-  void _parseWebHelp(List<String> result) {
-    _currentDialog!.webHelp = result[1];
   }
 
   void _parseField(List<String> result) {
