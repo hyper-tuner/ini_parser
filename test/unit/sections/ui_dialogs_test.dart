@@ -24,6 +24,7 @@ void main() {
     field = "!This is a critical setting!"
     field = "VVT2 Cam angle @ 0% duty",vvt2CL0DutyAng,    { vvt2Enabled && vvtMode == 2 }
     field = "Real Time Clock Trim +/-", rtc_trim, {rtc_mode}
+    field = "#Please ensure you calibrate your O2 sensor in the Tools menu", { egoType }
 
     gauge = VBattGauge,North
     gauge = pedalPositionGauge
@@ -120,11 +121,17 @@ void main() {
         expect((items[9] as UIField).constant).toEqual('rtc_trim');
         expect((items[9] as UIField).enabled).toEqual('{rtc_mode}');
 
-        expect((items[10] as UIGauge).name).toEqual('VBattGauge');
-        expect((items[10] as UIGauge).placement).toEqual(UIPlacement.north);
+        expect((items[10] as UIField).label).toEqual(
+          '#Please ensure you calibrate your O2 sensor in the Tools menu',
+        );
+        expect((items[10] as UIField).constant).toBeNull();
+        expect((items[10] as UIField).enabled).toEqual('{ egoType }');
 
-        expect((items[11] as UIGauge).name).toEqual('pedalPositionGauge');
-        expect((items[11] as UIGauge).placement).toBeNull();
+        expect((items[11] as UIGauge).name).toEqual('VBattGauge');
+        expect((items[11] as UIGauge).placement).toEqual(UIPlacement.north);
+
+        expect((items[12] as UIGauge).name).toEqual('pedalPositionGauge');
+        expect((items[12] as UIGauge).placement).toBeNull();
       });
 
       test('dialog with panels and live graphs', () async {

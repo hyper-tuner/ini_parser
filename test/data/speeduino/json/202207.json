@@ -18990,8 +18990,8 @@
           },
           {
             "label": "#Please ensure you calibrate your O2 sensor in the Tools menu",
-            "constant": "{ egoType }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ egoType }"
           },
           {
             "label": "Algorithm",

@@ -107,6 +107,30 @@ class UiDialogsParser {
   }
 
   void _parseField(List<String> result) {
+    // field = label, constant, { enabled }
+    // field = label, constant
+    // field = label, { enabled }
+
+    if (result.length == 3) {
+      if (result[2].isExpression()) {
+        _currentDialog!.items.add(
+          UIField(
+            label: result[1],
+            enabled: result[2],
+          ),
+        );
+      } else {
+        _currentDialog!.items.add(
+          UIField(
+            label: result[1],
+            constant: result[2],
+          ),
+        );
+      }
+
+      return;
+    }
+
     _currentDialog!.items.add(
       UIField(
         label: result[1],

@@ -53712,13 +53712,13 @@
           },
           {
             "label": "Fire sparks for this angle duration multisparkMaxSparkingAngle",
-            "constant": "{multisparkEnable}",
-            "enabled": null
+            "constant": null,
+            "enabled": "{multisparkEnable}"
           },
           {
             "label": "Maximum extra spark count multisparkMaxExtraSparkCount",
-            "constant": "{multisparkEnable}",
-            "enabled": null
+            "constant": null,
+            "enabled": "{multisparkEnable}"
           }
         ]
       },
@@ -58458,8 +58458,8 @@
           },
           {
             "label": "Startup delay stft_startupDelay",
-            "constant": "{fuelClosedLoopCorrectionEnabled == 1}",
-            "enabled": null
+            "constant": null,
+            "enabled": "{fuelClosedLoopCorrectionEnabled == 1}"
           },
           {
             "label": "Minimum CLT for correction",
@@ -60227,13 +60227,13 @@
           },
           {
             "label": "Gear Controller gearControllerMode",
-            "constant": "{ tcuEnabled }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled }"
           },
           {
             "label": "Transmission Controller transmissionControllerMode",
-            "constant": "{ tcuEnabled }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled }"
           }
         ]
       },
@@ -60245,78 +60245,78 @@
         "items": [
           {
             "label": "Solenoid 1 output tcu_solenoid1",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 1 output Mode tcu_solenoid_mode1",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 2 output tcu_solenoid2",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 2 output Mode tcu_solenoid_mode2",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 3 output tcu_solenoid3",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 3 output Mode tcu_solenoid_mode3",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 4 output tcu_solenoid4",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 4 output Mode tcu_solenoid_mode4",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 5 output tcu_solenoid5",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 5 output Mode tcu_solenoid_mode5",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 6 output tcu_solenoid6",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "Solenoid 6 output Mode tcu_solenoid_mode6",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 1 || transmissionControllerMode == 2) }"
           },
           {
             "label": "3-2 Solenoid output tcu_32_solenoid_pin",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "3-2 Solenoid output mode tcu_32_solenoid_pin_mode",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "3-2 Solenoid Frequency tcu_32_solenoid_freq",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           }
         ]
       },
@@ -60328,43 +60328,43 @@
         "items": [
           {
             "label": "TCC On/Off Solenoid Pin tcu_tcc_onoff_solenoid",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "TCC On/Off Solenoid Pin Mode tcu_tcc_onoff_solenoid_mode",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "TCC PWM Solenoid Pin tcu_tcc_pwm_solenoid",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "TCC PWM Solenoid Pin Mode tcu_tcc_pwm_solenoid_mode",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "TCC PWM Solenoid Frequency tcu_tcc_pwm_solenoid_freq",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "Pressure Control Solenoid Pin tcu_pc_solenoid_pin",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "Pressure Control Solenoid Pin Mode tcu_pc_solenoid_pin_mode",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           },
           {
             "label": "Pressure Control Solenoid Frequency tcu_pc_solenoid_freq",
-            "constant": "{ tcuEnabled && (transmissionControllerMode == 2) }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && (transmissionControllerMode == 2) }"
           }
         ]
       },
@@ -60376,23 +60376,23 @@
         "items": [
           {
             "label": "Upshift Pin tcuUpshiftButtonPin",
-            "constant": "{ tcuEnabled && gearControllerMode == 1 }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && gearControllerMode == 1 }"
           },
           {
             "label": "Upshift Pin Mode tcuUpshiftButtonPinMode",
-            "constant": "{ tcuEnabled && gearControllerMode == 1 }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && gearControllerMode == 1 }"
           },
           {
             "label": "Downshift Pin tcuDownshiftButtonPin",
-            "constant": "{ tcuEnabled && gearControllerMode == 1 }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && gearControllerMode == 1 }"
           },
           {
             "label": "Downshift Pin Mode tcuDownshiftButtonPinMode",
-            "constant": "{ tcuEnabled && gearControllerMode == 1 }",
-            "enabled": null
+            "constant": null,
+            "enabled": "{ tcuEnabled && gearControllerMode == 1 }"
           }
         ]
       },
