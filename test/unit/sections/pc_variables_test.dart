@@ -178,7 +178,7 @@ void main() {
             4: 'INVALID',
             5: 'INVALID',
             6: 'INVALID',
-            7: 'INVALID'
+            7: 'INVALID',
           },
         );
       });
