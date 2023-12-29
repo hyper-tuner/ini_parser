@@ -35,8 +35,10 @@ class INIParser {
     lines.clear();
     settings.clear();
 
-    final preProcessor = PreProcessor(raw: raw, settings: profileSettings ?? [])
-      ..process();
+    final preProcessor =
+        PreProcessor(raw: raw, settings: profileSettings ?? []);
+    await preProcessor.process();
+
     lines.addAll(preProcessor.lines);
     settings.addAll(preProcessor.settings);
     defines.addAll(preProcessor.defines);

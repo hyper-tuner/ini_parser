@@ -25,10 +25,17 @@ void main() {
   differentVar = "shouldn't be here"
 #endif
 
+#define invalid_x8      = "INVALID", "INVALID", "INVALID"
 #define invalid_x16 = "TEST", $invalid_x8
-#define fullStatus_def  = $fullStatus_def_1, $fullStatus_def_2
 #define loadSourceUnits = "kPa",           "% TPS",   "%",         "INVALID"
 #define trigger_missingTooth        = 0
+#define comparator_def  = "== (equal)",  "!= (different)",  "> (greater)",  ">= (greater/equal)",  "< (smaller)",  "<= (smaller/equal)",  "& (and)",  "^ (xor)"
+
+#define PIN_OUT16inv = "INVALID", "INVALID"
+#define CAN_ADDRESS_HEX_inv255 = $PIN_OUT16inv, $PIN_OUT16inv
+#define CAN_ADDRESS_HEX_01XX = "0x100", "0x101", "0x102"
+#define CAN_ADDRESS_HEX_02XX = "0x200", "0x201", "0x202"
+#define CAN_ADDRESS_HEX =  $CAN_ADDRESS_HEX_01XX, $CAN_ADDRESS_HEX_02XX, $CAN_ADDRESS_HEX_inv255
 ''';
 
     final parser = INIParser(raw);
@@ -76,10 +83,58 @@ void main() {
 
       expect(parser.defines).toEqual(
         {
-          'invalid_x16': ['TEST', r'$invalid_x8'],
-          'fullStatus_def': [r'$fullStatus_def_1', r'$fullStatus_def_2'],
+          'invalid_x8': [
+            'INVALID',
+            'INVALID',
+            'INVALID',
+          ],
+          'invalid_x16': [
+            'TEST',
+            'INVALID',
+            'INVALID',
+            'INVALID',
+          ],
           'loadSourceUnits': ['kPa', '% TPS', '%', 'INVALID'],
           'trigger_missingTooth': ['0'],
+          'comparator_def': [
+            '== (equal)',
+            '!= (different)',
+            '> (greater)',
+            '>= (greater/equal)',
+            '< (smaller)',
+            '<= (smaller/equal)',
+            '& (and)',
+            '^ (xor)',
+          ],
+          'PIN_OUT16inv': ['INVALID', 'INVALID'],
+          'CAN_ADDRESS_HEX_inv255': [
+            'INVALID',
+            'INVALID',
+            'INVALID',
+            'INVALID',
+          ],
+          'CAN_ADDRESS_HEX_01XX': [
+            '0x100',
+            '0x101',
+            '0x102',
+          ],
+          'CAN_ADDRESS_HEX_02XX': [
+            '0x200',
+            '0x201',
+            '0x202',
+          ],
+          'CAN_ADDRESS_HEX': [
+            '0x100',
+            '0x101',
+            '0x102',
+            '0x200',
+            '0x201',
+            '0x202',
+            'INVALID',
+            'INVALID',
+            'INVALID',
+            'INVALID',
+          ],
         },
       );
     });

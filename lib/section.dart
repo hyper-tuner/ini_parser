@@ -1,5 +1,6 @@
 enum Section {
   header('Header'),
+  defines('Defines'),
   settingGroups('SettingGroups'),
   pcVariables('PcVariables'),
   constants('Constants'),

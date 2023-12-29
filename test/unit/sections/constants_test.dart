@@ -27,8 +27,11 @@ page = 2
   inj4CylPairing  = bits,   U08,      123, [1:2],  "1+3 & 2+4", "1+4 & 2+3", "INVALID", "INVALID"
 
 #define loadSourceNames = "MAP", "TPS", "IMAP/EMAP", "INVALID",   "INVALID", "INVALID", "INVALID", "INVALID"
-
   ignAlgorithm  = bits,   U08,      26, [4:6], $loadSourceNames
+
+#define CAN_ADDRESS_HEX_01XX = "0x100"
+#define CAN_ADDRESS_HEX =  $CAN_ADDRESS_HEX_01XX
+    caninput_source_can_address0 = bits,   U16,     17,         [0:10], $CAN_ADDRESS_HEX
 ''';
 
       test('config', () async {
@@ -269,6 +272,23 @@ page = 2
           6: 'INVALID',
           7: 'INVALID',
         });
+      });
+
+      test('defined bits options with recursion', () async {
+        final result = await INIParser(raw).parse();
+        final constant = result.constants.pages[1].constants[6] as ConstantBits;
+
+        expect(constant.name).toEqual('caninput_source_can_address0');
+        expect(constant.type).toEqual(ConstantType.bits);
+        expect(constant.size).toEqual(ConstantSize.u16);
+        expect(constant.offset).toEqual(17);
+        expect(constant.bits.low).toEqual(0);
+        expect(constant.bits.high).toEqual(10);
+        expect(constant.options).toEqual(
+          {
+            0: '0x100',
+          },
+        );
       });
     });
 

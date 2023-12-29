@@ -18,7 +18,6 @@ void main() {
     iat_adcChannel = bits, U08, [0:5], 0="NONE", 1="18 - AN temp 1",13="19 - AN volt 4",5="28 - AN volt 10, Aux Reuse"
 
 #define loadSourceNames = "MAP", "TPS", "IMAP/EMAP", "INVALID",   "INVALID", "INVALID", "INVALID", "INVALID"
-
     algorithmNames = bits,    U08,   [0:2], $loadSourceNames
 ''';
 

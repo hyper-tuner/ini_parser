@@ -1,4 +1,7 @@
 import 'package:ini_parser/extensions.dart';
+import 'package:ini_parser/parsing_exception.dart';
+import 'package:ini_parser/section.dart';
+import 'package:text_parser/text_parser.dart';
 
 typedef PreProcessorDefines = Map<String, List<String>>;
 
@@ -7,17 +10,24 @@ class PreProcessor {
     required this.raw,
     required this.settings,
   });
+
   late final String raw;
   late final List<String> settings;
   final List<String> lines = [];
   final PreProcessorDefines defines = {};
+
+  final _parser = TextParser(
+    matchers: [
+      const PatternMatcher(r'^(?<key>\w+)\s*=\s*(?<value>.+)'),
+    ],
+  );
 
   /// Pre-process INI:
   /// - remove comments
   /// - remove empty lines
   /// - handle #if, #else, #endif, #set, #unset
   /// - handle #define
-  void process() {
+  Future<void> process() async {
     lines.clear();
     var ifClauseOpen = false;
     var elseClauseOpen = false;
@@ -88,13 +98,42 @@ class PreProcessor {
       }
 
       if (line.startsWith('#define')) {
-        final parts = line.substring(7).trim().split('=');
-        final key = parts[0].sanitize();
-        final values =
-            parts[1].sanitize().split(',').map((e) => e.clearString());
+        final trimmed = line.substring(7).trim();
+        final result = await _parser.parse(trimmed, onlyMatches: true);
+        final groups = (result.isEmpty ? <String>[] : result.first.groups)
+            .whereType<String>()
+            .toList();
+
+        if (groups.length < 2) {
+          return;
+        }
+
+        final key = groups.first.clearString();
+        final elements = groups
+            .sublist(1)
+            .join()
+            .split(',')
+            .map((e) {
+              final stripped = e.clearString();
+              if (stripped.startsWith(r'$')) {
+                final define = defines[stripped.substring(1)];
+                if (define == null) {
+                  throw ParsingException(
+                    section: Section.defines,
+                    line: line,
+                  );
+                }
+
+                return define;
+              }
+
+              return [stripped];
+            })
+            .expand((element) => element)
+            .toList();
 
         defines.addAll({
-          key: values.toList(),
+          key: elements,
         });
 
         continue;
