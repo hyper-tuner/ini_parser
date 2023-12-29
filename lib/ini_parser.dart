@@ -40,6 +40,7 @@ class INIParser {
     lines.addAll(preProcessor.lines);
     settings.addAll(preProcessor.settings);
     defines.addAll(preProcessor.defines);
+    _config.defines = defines;
 
     for (final line in lines) {
       _parseSections(line);
