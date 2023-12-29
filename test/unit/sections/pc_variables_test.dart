@@ -5,7 +5,7 @@ import 'package:spec/spec.dart';
 void main() {
   group('PcVariables', () {
     group('success', () {
-      const raw = '''
+      const raw = r'''
 [PcVariables]
     tuneCrcPcVariable = continuousChannelValue, tuneCrc16
 
@@ -16,6 +16,10 @@ void main() {
     wueAFR         = array, S16,  [10], "AFR", 0.1,   0.0, -4.0, 4.0, 1
     AUXin00Alias    = string, ASCII, 20
     iat_adcChannel = bits, U08, [0:5], 0="NONE", 1="18 - AN temp 1",13="19 - AN volt 4",5="28 - AN volt 10, Aux Reuse"
+
+#define loadSourceNames = "MAP", "TPS", "IMAP/EMAP", "INVALID",   "INVALID", "INVALID", "INVALID", "INVALID"
+
+    algorithmNames = bits,    U08,   [0:2], $loadSourceNames
 ''';
 
       test('scalar long', () async {
@@ -154,6 +158,29 @@ void main() {
           13: '19 - AN volt 4',
           5: '28 - AN volt 10, Aux Reuse',
         });
+      });
+
+      test('bits - with defined options', () async {
+        final result = await INIParser(raw).parse();
+        final variable = result.pcVariables[7] as PcVariableBits;
+
+        expect(variable.name).toEqual('algorithmNames');
+        expect(variable.type).toEqual(ConstantType.bits);
+        expect(variable.size).toEqual(ConstantSize.u08);
+        expect(variable.bits.low).toEqual(0);
+        expect(variable.bits.high).toEqual(2);
+        expect(variable.options).toEqual(
+          {
+            0: 'MAP',
+            1: 'TPS',
+            2: 'IMAP/EMAP',
+            3: 'INVALID',
+            4: 'INVALID',
+            5: 'INVALID',
+            6: 'INVALID',
+            7: 'INVALID'
+          },
+        );
       });
     });
 

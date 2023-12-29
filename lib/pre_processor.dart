@@ -1,5 +1,7 @@
 import 'package:ini_parser/extensions.dart';
 
+typedef PreProcessorDefines = Map<String, List<String>>;
+
 class PreProcessor {
   PreProcessor({
     required this.raw,
@@ -8,7 +10,7 @@ class PreProcessor {
   late final String raw;
   late final List<String> settings;
   final List<String> lines = [];
-  final Map<String, List<String>> defines = {};
+  final PreProcessorDefines defines = {};
 
   /// Pre-process INI:
   /// - remove comments
@@ -88,7 +90,8 @@ class PreProcessor {
       if (line.startsWith('#define')) {
         final parts = line.substring(7).trim().split('=');
         final key = parts[0].sanitize();
-        final values = parts[1].sanitize().split(',').map((e) => e.sanitize());
+        final values =
+            parts[1].sanitize().split(',').map((e) => e.clearString());
 
         defines.addAll({
           key: values.toList(),

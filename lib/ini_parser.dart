@@ -22,7 +22,7 @@ class INIParser {
   final String raw;
   final List<String> lines = [];
   final List<String> settings = [];
-  final Map<String, List<String>> defines = {};
+  final PreProcessorDefines defines = {};
 
   // assume that top level definitions are in the TunerStudio section (see FOME)
   String _currentSection = 'TunerStudio';
@@ -103,13 +103,13 @@ class INIParser {
   }
 
   Future<void> _parsePcVariables() async {
-    _config.pcVariables =
-        await PcVariablesParser().parse(_sections['PcVariables'] ?? []);
+    _config.pcVariables = await PcVariablesParser(defines: defines)
+        .parse(_sections['PcVariables'] ?? []);
   }
 
   Future<void> _parseConstants() async {
-    _config.constants =
-        await ConstantsParser().parse(_sections['Constants'] ?? []);
+    _config.constants = await ConstantsParser(defines: defines)
+        .parse(_sections['Constants'] ?? []);
   }
 
   Future<void> _parseOutputChannels() async {

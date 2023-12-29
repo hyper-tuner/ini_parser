@@ -25,6 +25,10 @@ page = 2
   unusedBits4_123 = bits,   U08,      123, [3:7]
   rtc_trim        = scalar,  S08,    123,               "ppm",      1, 0, -127, +127, 0
   inj4CylPairing  = bits,   U08,      123, [1:2],  "1+3 & 2+4", "1+4 & 2+3", "INVALID", "INVALID"
+
+#define loadSourceNames = "MAP", "TPS", "IMAP/EMAP", "INVALID",   "INVALID", "INVALID", "INVALID", "INVALID"
+
+  ignAlgorithm  = bits,   U08,      26, [4:6], $loadSourceNames
 ''';
 
       test('config', () async {
@@ -242,6 +246,28 @@ page = 2
           1: '1+4 & 2+3',
           2: 'INVALID',
           3: 'INVALID',
+        });
+      });
+
+      test('defined bits options', () async {
+        final result = await INIParser(raw).parse();
+        final constant = result.constants.pages[1].constants[5] as ConstantBits;
+
+        expect(constant.name).toEqual('ignAlgorithm');
+        expect(constant.type).toEqual(ConstantType.bits);
+        expect(constant.size).toEqual(ConstantSize.u08);
+        expect(constant.offset).toEqual(26);
+        expect(constant.bits.low).toEqual(4);
+        expect(constant.bits.high).toEqual(6);
+        expect(constant.options).toEqual({
+          0: 'MAP',
+          1: 'TPS',
+          2: 'IMAP/EMAP',
+          3: 'INVALID',
+          4: 'INVALID',
+          5: 'INVALID',
+          6: 'INVALID',
+          7: 'INVALID',
         });
       });
     });

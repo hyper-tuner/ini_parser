@@ -76,9 +76,9 @@ void main() {
 
       expect(parser.defines).toEqual(
         {
-          'invalid_x16': ['"TEST"', r'$invalid_x8'],
+          'invalid_x16': ['TEST', r'$invalid_x8'],
           'fullStatus_def': [r'$fullStatus_def_1', r'$fullStatus_def_2'],
-          'loadSourceUnits': ['"kPa"', '"% TPS"', '"%"', '"INVALID"'],
+          'loadSourceUnits': ['kPa', '% TPS', '%', 'INVALID'],
           'trigger_missingTooth': ['0'],
         },
       );

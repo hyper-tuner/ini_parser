@@ -2,10 +2,14 @@ import 'package:ini_parser/extensions.dart';
 import 'package:ini_parser/models/ini_config.dart';
 import 'package:ini_parser/parsing_exception.dart';
 import 'package:ini_parser/patterns.dart';
+import 'package:ini_parser/pre_processor.dart';
 import 'package:ini_parser/section.dart';
 import 'package:text_parser/text_parser.dart';
 
 class PcVariablesParser {
+  PcVariablesParser({required this.defines});
+
+  late final PreProcessorDefines defines;
   final List<PcVariable> _pcVariables = [];
 
   final _parser = TextParser(
@@ -71,6 +75,14 @@ class PcVariablesParser {
               .forEach((e) => options.addAll({e.first.parseInt(): e.last}));
         } else {
           options = optionsRaw.asMap();
+        }
+
+        // resolve defines (ex. $loadSourceNames)
+        if (options[0] != null && options[0]!.startsWith(r'$')) {
+          final foundDefines = defines[options[0]!.substring(1)];
+          if (foundDefines != null) {
+            options = foundDefines.asMap();
+          }
         }
 
         final bitsRaw = result[3]
