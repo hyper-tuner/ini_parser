@@ -1198,7 +1198,6 @@ class FrontPage {
 
 class INIConfig {
   Header header = Header();
-  Map<String, String> defines = {};
   List<SettingGroup> settingGroups = [];
   List<PcVariable> pcVariables = [];
   Constants constants = Constants();
@@ -1217,7 +1216,6 @@ class INIConfig {
   Map<String, dynamic> toJson() {
     return {
       'header': header.toJson(),
-      'defines': defines,
       'settingGroups': settingGroups.map((c) => c.toJson()).toList(),
       'pcVariables': pcVariables.map((c) => c.toJson()).toList(),
       'constants': constants.toJson(),

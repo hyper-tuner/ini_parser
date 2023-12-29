@@ -22,7 +22,7 @@ class INIParser {
   final String raw;
   final List<String> lines = [];
   final List<String> settings = [];
-  final Map<String, String> defines = {};
+  final Map<String, List<String>> defines = {};
 
   // assume that top level definitions are in the TunerStudio section (see FOME)
   String _currentSection = 'TunerStudio';
@@ -40,7 +40,6 @@ class INIParser {
     lines.addAll(preProcessor.lines);
     settings.addAll(preProcessor.settings);
     defines.addAll(preProcessor.defines);
-    _config.defines = defines;
 
     for (final line in lines) {
       _parseSections(line);

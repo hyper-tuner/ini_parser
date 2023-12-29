@@ -26,6 +26,9 @@ void main() {
 #endif
 
 #define invalid_x16 = "TEST", $invalid_x8
+#define fullStatus_def  = $fullStatus_def_1, $fullStatus_def_2
+#define loadSourceUnits = "kPa",           "% TPS",   "%",         "INVALID"
+#define trigger_missingTooth        = 0
 ''';
 
     final parser = INIParser(raw);
@@ -73,7 +76,10 @@ void main() {
 
       expect(parser.defines).toEqual(
         {
-          'invalid_x16': r'"TEST", $invalid_x8',
+          'invalid_x16': ['"TEST"', r'$invalid_x8'],
+          'fullStatus_def': [r'$fullStatus_def_1', r'$fullStatus_def_2'],
+          'loadSourceUnits': ['"kPa"', '"% TPS"', '"%"', '"INVALID"'],
+          'trigger_missingTooth': ['0'],
         },
       );
     });
