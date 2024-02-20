@@ -62660,17 +62660,18 @@
       "label": "VE Table",
       "page": 2,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelLoadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "veTable"
-      ],
+      "xBins": {
+        "constant": "rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelLoadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "veTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "Fuel Load:"
@@ -62692,17 +62693,18 @@
       "label": "Fuel Table 2",
       "page": 11,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelRPM2Bins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelLoad2Bins",
-        "fuelLoad2"
-      ],
-      "zBins": [
-        "veTable2"
-      ],
+      "xBins": {
+        "constant": "fuelRPM2Bins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelLoad2Bins",
+        "channel": "fuelLoad2"
+      },
+      "zBins": {
+        "constant": "veTable2",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "Fuel Load:"
@@ -62724,17 +62726,18 @@
       "label": "Ignition Advance Table",
       "page": 3,
       "topicHelp": null,
-      "xBins": [
-        "rpmBins2",
-        "rpm"
-      ],
-      "yBins": [
-        "mapBins1",
-        "ignLoad"
-      ],
-      "zBins": [
-        "advTable1"
-      ],
+      "xBins": {
+        "constant": "rpmBins2",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "mapBins1",
+        "channel": "ignLoad"
+      },
+      "zBins": {
+        "constant": "advTable1",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "Ignition Load:"
@@ -62752,17 +62755,18 @@
       "label": "Second Ignition Advance Table",
       "page": 14,
       "topicHelp": null,
-      "xBins": [
-        "rpmBins3",
-        "rpm"
-      ],
-      "yBins": [
-        "mapBins2",
-        "ignLoad2"
-      ],
-      "zBins": [
-        "advTable2"
-      ],
+      "xBins": {
+        "constant": "rpmBins3",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "mapBins2",
+        "channel": "ignLoad2"
+      },
+      "zBins": {
+        "constant": "advTable2",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "Ignition Load:"
@@ -62780,17 +62784,18 @@
       "label": "AFR Table",
       "page": 5,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsAFR",
-        "rpm"
-      ],
-      "yBins": [
-        "loadBinsAFR",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "afrTable"
-      ],
+      "xBins": {
+        "constant": "rpmBinsAFR",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "loadBinsAFR",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "afrTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 1.0,
       "gridOrient": [
@@ -62809,17 +62814,18 @@
       "label": "Boost Duty / Target",
       "page": 7,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsBoost",
-        "rpm"
-      ],
-      "yBins": [
-        "tpsBinsBoost",
-        "throttle"
-      ],
-      "zBins": [
-        "boostTable"
-      ],
+      "xBins": {
+        "constant": "rpmBinsBoost",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "tpsBinsBoost",
+        "channel": "throttle"
+      },
+      "zBins": {
+        "constant": "boostTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 3.0,
       "gridOrient": [],
@@ -62834,17 +62840,18 @@
       "label": "Base duty for closed loop",
       "page": 7,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsDutyLookup",
-        "rpm"
-      ],
-      "yBins": [
-        "loadBinsDutyLookup",
-        "boostTarget"
-      ],
-      "zBins": [
-        "boostTableDutyLookup"
-      ],
+      "xBins": {
+        "constant": "rpmBinsDutyLookup",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "loadBinsDutyLookup",
+        "channel": "boostTarget"
+      },
+      "zBins": {
+        "constant": "boostTableDutyLookup",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 3.0,
       "gridOrient": [],
@@ -62859,17 +62866,18 @@
       "label": "VVT control Table",
       "page": 7,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsVVT",
-        "rpm"
-      ],
-      "yBins": [
-        "loadBinsVVT",
-        "vvtLoad"
-      ],
-      "zBins": [
-        "vvtTable"
-      ],
+      "xBins": {
+        "constant": "rpmBinsVVT",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "loadBinsVVT",
+        "channel": "vvtLoad"
+      },
+      "zBins": {
+        "constant": "vvtTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "VVT Load:"
@@ -62887,17 +62895,18 @@
       "label": "VVT2 control Table",
       "page": 12,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsVVT2",
-        "rpm"
-      ],
-      "yBins": [
-        "loadBinsVVT2",
-        "vvtLoad"
-      ],
-      "zBins": [
-        "vvt2Table"
-      ],
+      "xBins": {
+        "constant": "rpmBinsVVT2",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "loadBinsVVT2",
+        "channel": "vvtLoad"
+      },
+      "zBins": {
+        "constant": "vvt2Table",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "VVT Load:"
@@ -62915,17 +62924,18 @@
       "label": "WMI control Table",
       "page": 12,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsWMI",
-        "rpm"
-      ],
-      "yBins": [
-        "mapBinsWMI",
-        "map"
-      ],
-      "zBins": [
-        "wmiTable"
-      ],
+      "xBins": {
+        "constant": "rpmBinsWMI",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "mapBinsWMI",
+        "channel": "map"
+      },
+      "zBins": {
+        "constant": "wmiTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "WMI Load:"
@@ -62943,17 +62953,18 @@
       "label": "Fuel Staging Table",
       "page": 7,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsStaging",
-        "rpm"
-      ],
-      "yBins": [
-        "loadBinsStaging",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "stagingTable"
-      ],
+      "xBins": {
+        "constant": "rpmBinsStaging",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "loadBinsStaging",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "stagingTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 3.0,
       "gridOrient": [],
@@ -62968,17 +62979,18 @@
       "label": "Fuel trim Table 1",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim1rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim1loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim1Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim1rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim1loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim1Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -62997,17 +63009,18 @@
       "label": "Fuel trim Table 2",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim2rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim2loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim2Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim2rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim2loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim2Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63026,17 +63039,18 @@
       "label": "Fuel trim Table 3",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim3rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim3loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim3Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim3rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim3loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim3Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63055,17 +63069,18 @@
       "label": "Fuel trim Table 4",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim4rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim4loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim4Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim4rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim4loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim4Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63084,17 +63099,18 @@
       "label": "Fuel trim Table 5",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim5rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim5loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim5Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim5rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim5loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim5Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63113,17 +63129,18 @@
       "label": "Fuel trim Table 6",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim6rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim6loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim6Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim6rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim6loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim6Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63142,17 +63159,18 @@
       "label": "Fuel trim Table 7",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim7rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim7loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim7Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim7rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim7loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim7Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63171,17 +63189,18 @@
       "label": "Fuel trim Table 8",
       "page": 8,
       "topicHelp": "http://speeduino.com/wiki/index.php/Tuning",
-      "xBins": [
-        "fuelTrim8rpmBins",
-        "rpm"
-      ],
-      "yBins": [
-        "fuelTrim8loadBins",
-        "fuelLoad"
-      ],
-      "zBins": [
-        "fuelTrim8Table"
-      ],
+      "xBins": {
+        "constant": "fuelTrim8rpmBins",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "fuelTrim8loadBins",
+        "channel": "fuelLoad"
+      },
+      "zBins": {
+        "constant": "fuelTrim8Table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 2.0,
       "gridOrient": [
@@ -63200,17 +63219,18 @@
       "label": "Dwell map",
       "page": 12,
       "topicHelp": null,
-      "xBins": [
-        "rpmBinsDwell",
-        "rpm"
-      ],
-      "yBins": [
-        "loadBinsDwell",
-        "ignLoad"
-      ],
-      "zBins": [
-        "dwellTable"
-      ],
+      "xBins": {
+        "constant": "rpmBinsDwell",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "loadBinsDwell",
+        "channel": "ignLoad"
+      },
+      "zBins": {
+        "constant": "dwellTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "Load:"

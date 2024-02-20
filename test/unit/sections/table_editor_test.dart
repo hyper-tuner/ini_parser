@@ -34,9 +34,12 @@ table = idleVeTableTbl, idleVeTable, "Idle VE"
         expect(table.page).toEqual(1);
         expect(table.topicHelp)
             .toEqual('http://speeduino.com/wiki/index.php/Tuning');
-        expect(table.xBins).toEqual(['alsIgnRetardrpmBins', 'RPMValue']);
-        expect(table.yBins).toEqual(['alsIgnRetardLoadBins', 'TPSValue']);
-        expect(table.zBins).toEqual(['ALSTimingRetardTable']);
+        expect(table.xBins.constant).toEqual('alsIgnRetardrpmBins');
+        expect(table.xBins.channel).toEqual('RPMValue');
+        expect(table.yBins.constant).toEqual('alsIgnRetardLoadBins');
+        expect(table.yBins.channel).toEqual('TPSValue');
+        expect(table.zBins.constant).toEqual('ALSTimingRetardTable');
+        expect(table.zBins.channel).toBeNull();
         expect(table.xyLabels).toEqual(['RPM', 'Fuel Load:']);
         expect(table.gridHeight).toEqual(4);
         expect(table.gridOrient).toEqual([250, 0, 340]);
@@ -51,6 +54,17 @@ table = idleVeTableTbl, idleVeTable, "Idle VE"
         expect(table.map).toEqual('idleVeTable');
         expect(table.label).toEqual('Idle VE');
         expect(table.page).toEqual(0);
+        expect(table.topicHelp).toBeNull();
+        expect(table.xBins.constant).toEqual('idleVeRpmBins');
+        expect(table.xBins.channel).toEqual('RPMValue');
+        expect(table.yBins.constant).toEqual('idleVeLoadBins');
+        expect(table.yBins.channel).toEqual('veTableYAxis');
+        expect(table.zBins.constant).toEqual('idleVeTable');
+        expect(table.zBins.channel).toBeNull();
+        expect(table.xyLabels).toEqual([]);
+        expect(table.gridHeight).toBeNull();
+        expect(table.gridOrient).toEqual([250, 0, 340]);
+        expect(table.upDownLabels).toEqual(['(RICHER)', '(LEANER)']);
       });
     });
 

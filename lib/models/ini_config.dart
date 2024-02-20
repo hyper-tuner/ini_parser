@@ -686,9 +686,9 @@ class Table {
   final String label;
   final int page;
   String? topicHelp;
-  List<String> xBins = [];
-  List<String> yBins = [];
-  List<String> zBins = [];
+  TableBins xBins = TableBins(constant: '');
+  TableBins yBins = TableBins(constant: '');
+  TableBins zBins = TableBins(constant: '');
   List<String> xyLabels = [];
   double? gridHeight;
   List<double> gridOrient = [];

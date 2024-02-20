@@ -64,11 +64,23 @@ class TableEditorParser {
       case 'topicHelp':
         _currentTable!.topicHelp = result[1];
       case 'xBins':
-        _currentTable!.xBins = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentTable!.xBins = TableBins(
+          constant: parts[0],
+          channel: parts.length > 1 ? parts[1] : null,
+        );
       case 'yBins':
-        _currentTable!.yBins = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentTable!.yBins = TableBins(
+          constant: parts[0],
+          channel: parts.length > 1 ? parts[1] : null,
+        );
       case 'zBins':
-        _currentTable!.zBins = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentTable!.zBins = TableBins(
+          constant: parts[0],
+          channel: parts.length > 1 ? parts[1] : null,
+        );
       case 'xyLabels':
         _currentTable!.xyLabels = result.sublist(1);
       case 'gridHeight':

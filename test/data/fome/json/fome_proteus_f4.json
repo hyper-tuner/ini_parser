@@ -43070,17 +43070,18 @@
       "label": "TPS/TPS Acceleration Extra Fuel(ms)",
       "page": 1,
       "topicHelp": "tpstpsHelp",
-      "xBins": [
-        "tpsTpsAccelFromRpmBins",
-        "TPSValue"
-      ],
-      "yBins": [
-        "tpsTpsAccelToRpmBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "tpsTpsAccelTable"
-      ],
+      "xBins": {
+        "constant": "tpsTpsAccelFromRpmBins",
+        "channel": "TPSValue"
+      },
+      "yBins": {
+        "constant": "tpsTpsAccelToRpmBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "tpsTpsAccelTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43092,17 +43093,18 @@
       "label": "Boost control duty cycle (open loop)",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "boostRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "boostTpsBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "boostTableOpenLoop"
-      ],
+      "xBins": {
+        "constant": "boostRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "boostTpsBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "boostTableOpenLoop",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43114,17 +43116,18 @@
       "label": "Boost control target (kPa)",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "boostRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "boostTpsBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "boostTableClosedLoop"
-      ],
+      "xBins": {
+        "constant": "boostRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "boostTpsBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "boostTableClosedLoop",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43136,17 +43139,18 @@
       "label": "Intake VVT closed loop Target",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "vvtTable1RpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "vvtTable1LoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "vvtTable1"
-      ],
+      "xBins": {
+        "constant": "vvtTable1RpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "vvtTable1LoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "vvtTable1",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43158,17 +43162,18 @@
       "label": "Exhaust VVT closed loop Target",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "vvtTable2RpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "vvtTable2LoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "vvtTable2"
-      ],
+      "xBins": {
+        "constant": "vvtTable2RpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "vvtTable2LoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "vvtTable2",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43180,17 +43185,18 @@
       "label": "Script Table #1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "scriptTable1RpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "scriptTable1LoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "scriptTable1"
-      ],
+      "xBins": {
+        "constant": "scriptTable1RpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "scriptTable1LoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "scriptTable1",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43202,17 +43208,18 @@
       "label": "Script Table #2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "scriptTable2RpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "scriptTable2LoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "scriptTable2"
-      ],
+      "xBins": {
+        "constant": "scriptTable2RpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "scriptTable2LoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "scriptTable2",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43224,17 +43231,18 @@
       "label": "Script Table #3",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "scriptTable3RpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "scriptTable3LoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "scriptTable3"
-      ],
+      "xBins": {
+        "constant": "scriptTable3RpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "scriptTable3LoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "scriptTable3",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43246,17 +43254,18 @@
       "label": "Script Table #4",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "scriptTable4RpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "scriptTable4LoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "scriptTable4"
-      ],
+      "xBins": {
+        "constant": "scriptTable4RpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "scriptTable4LoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "scriptTable4",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43268,17 +43277,18 @@
       "label": "Ignition adjustment",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "alsIgnRetardrpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "alsIgnRetardLoadBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "ALSTimingRetardTable"
-      ],
+      "xBins": {
+        "constant": "alsIgnRetardrpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "alsIgnRetardLoadBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "ALSTimingRetardTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 4.0,
       "gridOrient": [
@@ -43297,17 +43307,18 @@
       "label": "Fuel adjustment",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "alsFuelAdjustmentrpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "alsFuelAdjustmentLoadBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "ALSFuelAdjustment"
-      ],
+      "xBins": {
+        "constant": "alsFuelAdjustmentrpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "alsFuelAdjustmentLoadBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "ALSFuelAdjustment",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": 4.0,
       "gridOrient": [
@@ -43326,17 +43337,18 @@
       "label": "Baro Correction",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "baroCorrRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "baroCorrPressureBins",
-        "baroPressure"
-      ],
-      "zBins": [
-        "baroCorrTable"
-      ],
+      "xBins": {
+        "constant": "baroCorrRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "baroCorrPressureBins",
+        "channel": "baroPressure"
+      },
+      "zBins": {
+        "constant": "baroCorrTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43355,17 +43367,18 @@
       "label": "Ignition Table",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignitionRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignitionLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignitionTable"
-      ],
+      "xBins": {
+        "constant": "ignitionRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignitionLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignitionTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43384,17 +43397,18 @@
       "label": "Ignition adder 1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignBlends1_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignBlends1_loadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignBlends1_table"
-      ],
+      "xBins": {
+        "constant": "ignBlends1_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignBlends1_loadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignBlends1_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43410,17 +43424,18 @@
       "label": "Ignition adder 2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignBlends2_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignBlends2_loadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignBlends2_table"
-      ],
+      "xBins": {
+        "constant": "ignBlends2_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignBlends2_loadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignBlends2_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43436,17 +43451,18 @@
       "label": "Ignition adder 3",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignBlends3_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignBlends3_loadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignBlends3_table"
-      ],
+      "xBins": {
+        "constant": "ignBlends3_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignBlends3_loadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignBlends3_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43462,17 +43478,18 @@
       "label": "Ignition adder 4",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignBlends4_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignBlends4_loadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignBlends4_table"
-      ],
+      "xBins": {
+        "constant": "ignBlends4_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignBlends4_loadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignBlends4_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43488,17 +43505,18 @@
       "label": "VE blend 1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "veBlends1_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "veBlends1_loadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "veBlends1_table"
-      ],
+      "xBins": {
+        "constant": "veBlends1_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "veBlends1_loadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "veBlends1_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43514,17 +43532,18 @@
       "label": "VE blend 2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "veBlends2_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "veBlends2_loadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "veBlends2_table"
-      ],
+      "xBins": {
+        "constant": "veBlends2_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "veBlends2_loadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "veBlends2_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43540,17 +43559,18 @@
       "label": "VE blend 3",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "veBlends3_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "veBlends3_loadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "veBlends3_table"
-      ],
+      "xBins": {
+        "constant": "veBlends3_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "veBlends3_loadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "veBlends3_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43566,17 +43586,18 @@
       "label": "VE blend 4",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "veBlends4_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "veBlends4_loadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "veBlends4_table"
-      ],
+      "xBins": {
+        "constant": "veBlends4_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "veBlends4_loadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "veBlends4_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43592,17 +43613,18 @@
       "label": "Boost open loop blend 1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "boostOpenLoopBlends1_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "boostOpenLoopBlends1_loadBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "boostOpenLoopBlends1_table"
-      ],
+      "xBins": {
+        "constant": "boostOpenLoopBlends1_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "boostOpenLoopBlends1_loadBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "boostOpenLoopBlends1_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43618,17 +43640,18 @@
       "label": "Boost open loop blend 2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "boostOpenLoopBlends2_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "boostOpenLoopBlends2_loadBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "boostOpenLoopBlends2_table"
-      ],
+      "xBins": {
+        "constant": "boostOpenLoopBlends2_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "boostOpenLoopBlends2_loadBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "boostOpenLoopBlends2_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43644,17 +43667,18 @@
       "label": "Boost closed loop blend 1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "boostClosedLoopBlends1_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "boostClosedLoopBlends1_loadBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "boostClosedLoopBlends1_table"
-      ],
+      "xBins": {
+        "constant": "boostClosedLoopBlends1_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "boostClosedLoopBlends1_loadBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "boostClosedLoopBlends1_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43670,17 +43694,18 @@
       "label": "Boost closed loop blend 2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "boostClosedLoopBlends2_rpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "boostClosedLoopBlends2_loadBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "boostClosedLoopBlends2_table"
-      ],
+      "xBins": {
+        "constant": "boostClosedLoopBlends2_rpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "boostClosedLoopBlends2_loadBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "boostClosedLoopBlends2_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43696,17 +43721,18 @@
       "label": "Ignition Intake Air Temp correction",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignitionIatCorrTempBins",
-        "intake"
-      ],
-      "yBins": [
-        "ignitionIatCorrLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignitionIatCorrTable"
-      ],
+      "xBins": {
+        "constant": "ignitionIatCorrTempBins",
+        "channel": "intake"
+      },
+      "yBins": {
+        "constant": "ignitionIatCorrLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignitionIatCorrTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -43725,17 +43751,18 @@
       "label": "VE Table",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "veRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "veLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "veTable"
-      ],
+      "xBins": {
+        "constant": "veRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "veLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "veTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "load"
@@ -43757,17 +43784,18 @@
       "label": "Idle VE",
       "page": 0,
       "topicHelp": null,
-      "xBins": [
-        "idleVeRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "idleVeLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "idleVeTable"
-      ],
+      "xBins": {
+        "constant": "idleVeRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "idleVeLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "idleVeTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         "load"
@@ -43789,17 +43817,18 @@
       "label": "Fuel trim cyl 1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims1_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims1_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43814,17 +43843,18 @@
       "label": "Fuel trim cyl 2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims2_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims2_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43839,17 +43869,18 @@
       "label": "Fuel trim cyl 3",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims3_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims3_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43864,17 +43895,18 @@
       "label": "Fuel trim cyl 4",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims4_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims4_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43889,17 +43921,18 @@
       "label": "Fuel trim cyl 5",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims5_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims5_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43914,17 +43947,18 @@
       "label": "Fuel trim cyl 6",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims6_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims6_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43939,17 +43973,18 @@
       "label": "Fuel trim cyl 7",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims7_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims7_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43964,17 +43999,18 @@
       "label": "Fuel trim cyl 8",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims8_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims8_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -43989,17 +44025,18 @@
       "label": "Fuel trim cyl 9",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims9_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims9_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44014,17 +44051,18 @@
       "label": "Fuel trim cyl 10",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims10_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims10_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44039,17 +44077,18 @@
       "label": "Fuel trim cyl 11",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims11_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims11_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44064,17 +44103,18 @@
       "label": "Fuel trim cyl 12",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "fuelTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "fuelTrimLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "fuelTrims12_table"
-      ],
+      "xBins": {
+        "constant": "fuelTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "fuelTrimLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "fuelTrims12_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44089,17 +44129,18 @@
       "label": "Ign trim cyl 1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims1_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims1_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44111,17 +44152,18 @@
       "label": "Ign trim cyl 2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims2_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims2_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44133,17 +44175,18 @@
       "label": "Ign trim cyl 3",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims3_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims3_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44155,17 +44198,18 @@
       "label": "Ign trim cyl 4",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims4_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims4_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44177,17 +44221,18 @@
       "label": "Ign trim cyl 5",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims5_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims5_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44199,17 +44244,18 @@
       "label": "Ign trim cyl 6",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims6_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims6_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44221,17 +44267,18 @@
       "label": "Ign trim cyl 7",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims7_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims7_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44243,17 +44290,18 @@
       "label": "Ign trim cyl 8",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims8_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims8_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44265,17 +44313,18 @@
       "label": "Ign trim cyl 9",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims9_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims9_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44287,17 +44336,18 @@
       "label": "Ign trim cyl 10",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims10_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims10_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44309,17 +44359,18 @@
       "label": "Ign trim cyl 11",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims11_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims11_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44331,17 +44382,18 @@
       "label": "Ign trim cyl 12",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "ignTrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "ignTrimLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "ignTrims12_table"
-      ],
+      "xBins": {
+        "constant": "ignTrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "ignTrimLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "ignTrims12_table",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44353,17 +44405,18 @@
       "label": "MAP Estimate",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "mapEstimateRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "mapEstimateTpsBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "mapEstimateTable"
-      ],
+      "xBins": {
+        "constant": "mapEstimateRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "mapEstimateTpsBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "mapEstimateTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44375,17 +44428,18 @@
       "label": "Injection Phase",
       "page": 1,
       "topicHelp": "fuelHelp",
-      "xBins": [
-        "injPhaseRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "injPhaseLoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "injectionPhase"
-      ],
+      "xBins": {
+        "constant": "injPhaseRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "injPhaseLoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "injectionPhase",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -44404,17 +44458,18 @@
       "label": "ETB Pedal to TPS",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "pedalToTpsRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "pedalToTpsPedalBins",
-        "throttlePedalPosition"
-      ],
-      "zBins": [
-        "pedalToTpsTable"
-      ],
+      "xBins": {
+        "constant": "pedalToTpsRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "pedalToTpsPedalBins",
+        "channel": "throttlePedalPosition"
+      },
+      "zBins": {
+        "constant": "pedalToTpsTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -44433,17 +44488,18 @@
       "label": "ETB #2 Trim",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "throttle2TrimRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "throttle2TrimTpsBins",
-        "TPSValue"
-      ],
-      "zBins": [
-        "throttle2TrimTable"
-      ],
+      "xBins": {
+        "constant": "throttle2TrimRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "throttle2TrimTpsBins",
+        "channel": "TPSValue"
+      },
+      "zBins": {
+        "constant": "throttle2TrimTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -44459,17 +44515,18 @@
       "label": "Max knock retard",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "maxKnockRetardRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "maxKnockRetardLoadBins",
-        "ignitionLoad"
-      ],
-      "zBins": [
-        "maxKnockRetardTable"
-      ],
+      "xBins": {
+        "constant": "maxKnockRetardRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "maxKnockRetardLoadBins",
+        "channel": "ignitionLoad"
+      },
+      "zBins": {
+        "constant": "maxKnockRetardTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -44485,17 +44542,18 @@
       "label": "Target AFR Table",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "lambdaRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "lambdaLoadBins",
-        "afrTableYAxis"
-      ],
-      "zBins": [
-        "lambdaTable"
-      ],
+      "xBins": {
+        "constant": "lambdaRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "lambdaLoadBins",
+        "channel": "afrTableYAxis"
+      },
+      "zBins": {
+        "constant": "lambdaTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -44514,17 +44572,18 @@
       "label": "Maximum Lambda Deviation",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "lambdaMaxDeviationRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "lambdaMaxDeviationLoadBins",
-        "afrTableYAxis"
-      ],
-      "zBins": [
-        "lambdaMaxDeviationTable"
-      ],
+      "xBins": {
+        "constant": "lambdaMaxDeviationRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "lambdaMaxDeviationLoadBins",
+        "channel": "afrTableYAxis"
+      },
+      "zBins": {
+        "constant": "lambdaMaxDeviationTable",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         ""
@@ -44539,17 +44598,18 @@
       "label": "IAC PID Multiplier Table",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "iacPidMultRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "iacPidMultLoadBins",
-        "fuelingLoad"
-      ],
-      "zBins": [
-        "iacPidMultTable"
-      ],
+      "xBins": {
+        "constant": "iacPidMultRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "iacPidMultLoadBins",
+        "channel": "fuelingLoad"
+      },
+      "zBins": {
+        "constant": "iacPidMultTable",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [
@@ -44568,17 +44628,18 @@
       "label": "GP#1",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "gppwm1_rpmBins",
-        "gppwmXAxis1"
-      ],
-      "yBins": [
-        "gppwm1_loadBins",
-        "gppwmYAxis1"
-      ],
-      "zBins": [
-        "gppwm1_table"
-      ],
+      "xBins": {
+        "constant": "gppwm1_rpmBins",
+        "channel": "gppwmXAxis1"
+      },
+      "yBins": {
+        "constant": "gppwm1_loadBins",
+        "channel": "gppwmYAxis1"
+      },
+      "zBins": {
+        "constant": "gppwm1_table",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         ""
@@ -44593,17 +44654,18 @@
       "label": "GP#2",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "gppwm2_rpmBins",
-        "gppwmXAxis2"
-      ],
-      "yBins": [
-        "gppwm2_loadBins",
-        "gppwmYAxis2"
-      ],
-      "zBins": [
-        "gppwm2_table"
-      ],
+      "xBins": {
+        "constant": "gppwm2_rpmBins",
+        "channel": "gppwmXAxis2"
+      },
+      "yBins": {
+        "constant": "gppwm2_loadBins",
+        "channel": "gppwmYAxis2"
+      },
+      "zBins": {
+        "constant": "gppwm2_table",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         ""
@@ -44618,17 +44680,18 @@
       "label": "GP#3",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "gppwm3_rpmBins",
-        "gppwmXAxis3"
-      ],
-      "yBins": [
-        "gppwm3_loadBins",
-        "gppwmYAxis3"
-      ],
-      "zBins": [
-        "gppwm3_table"
-      ],
+      "xBins": {
+        "constant": "gppwm3_rpmBins",
+        "channel": "gppwmXAxis3"
+      },
+      "yBins": {
+        "constant": "gppwm3_loadBins",
+        "channel": "gppwmYAxis3"
+      },
+      "zBins": {
+        "constant": "gppwm3_table",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         ""
@@ -44643,17 +44706,18 @@
       "label": "GP#4",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "gppwm4_rpmBins",
-        "gppwmXAxis4"
-      ],
-      "yBins": [
-        "gppwm4_loadBins",
-        "gppwmYAxis4"
-      ],
-      "zBins": [
-        "gppwm4_table"
-      ],
+      "xBins": {
+        "constant": "gppwm4_rpmBins",
+        "channel": "gppwmXAxis4"
+      },
+      "yBins": {
+        "constant": "gppwm4_loadBins",
+        "channel": "gppwmYAxis4"
+      },
+      "zBins": {
+        "constant": "gppwm4_table",
+        "channel": null
+      },
       "xyLabels": [
         "RPM",
         ""
@@ -44668,17 +44732,18 @@
       "label": "Solenoids Active By Gear",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "solenoidCountArray",
-        "tcuCurrentGear"
-      ],
-      "yBins": [
-        "gearCountArray",
-        "tcuCurrentGear"
-      ],
-      "zBins": [
-        "tcuSolenoidTable"
-      ],
+      "xBins": {
+        "constant": "solenoidCountArray",
+        "channel": "tcuCurrentGear"
+      },
+      "yBins": {
+        "constant": "gearCountArray",
+        "channel": "tcuCurrentGear"
+      },
+      "zBins": {
+        "constant": "tcuSolenoidTable",
+        "channel": null
+      },
       "xyLabels": [
         "Solenoid",
         "Gear"
@@ -44693,17 +44758,18 @@
       "label": "HPFP Target Fuel Pressure",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "hpfpTargetRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "hpfpTargetLoadBins",
-        "veTableYAxis"
-      ],
-      "zBins": [
-        "hpfpTarget"
-      ],
+      "xBins": {
+        "constant": "hpfpTargetRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "hpfpTargetLoadBins",
+        "channel": "veTableYAxis"
+      },
+      "zBins": {
+        "constant": "hpfpTarget",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
@@ -44715,17 +44781,18 @@
       "label": "HPFP Pump Compensation Factor",
       "page": 1,
       "topicHelp": null,
-      "xBins": [
-        "hpfpCompensationRpmBins",
-        "RPMValue"
-      ],
-      "yBins": [
-        "hpfpCompensationLoadBins",
-        "running_fuel"
-      ],
-      "zBins": [
-        "hpfpCompensation"
-      ],
+      "xBins": {
+        "constant": "hpfpCompensationRpmBins",
+        "channel": "RPMValue"
+      },
+      "yBins": {
+        "constant": "hpfpCompensationLoadBins",
+        "channel": "running_fuel"
+      },
+      "zBins": {
+        "constant": "hpfpCompensation",
+        "channel": null
+      },
       "xyLabels": [],
       "gridHeight": null,
       "gridOrient": [],
