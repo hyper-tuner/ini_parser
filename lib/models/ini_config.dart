@@ -776,6 +776,43 @@ class GaugeConfig {
   }
 }
 
+class TableBins {
+  TableBins({
+    required this.constant,
+    this.channel,
+  });
+
+  final String constant;
+  final String? channel;
+
+  Map<String, dynamic> toJson() {
+    return {
+      'constant': constant,
+      'channel': channel,
+    };
+  }
+}
+
+class CurveAxis {
+  CurveAxis({
+    required this.min,
+    required this.max,
+    this.numDivisions,
+  });
+
+  final String min;
+  final String max;
+  final int? numDivisions;
+
+  Map<String, dynamic> toJson() {
+    return {
+      'min': min,
+      'max': max,
+      'numDivisions': numDivisions,
+    };
+  }
+}
+
 class Curve {
   Curve({
     required this.name,
@@ -784,10 +821,10 @@ class Curve {
   final String name;
   final String label;
   List<String> columnLabels = [];
-  List<String> xAxis = [];
-  List<String> yAxis = [];
-  List<String> xBins = [];
-  List<String> yBins = [];
+  CurveAxis xAxis = CurveAxis(min: '0', max: '0');
+  CurveAxis yAxis = CurveAxis(min: '0', max: '0');
+  TableBins xBins = TableBins(constant: '');
+  TableBins yBins = TableBins(constant: '');
   String? topicHelp;
   bool showTextValues = false;
   String? lineLabel;

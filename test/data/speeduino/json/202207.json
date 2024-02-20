@@ -64650,23 +64650,24 @@
         "TPSdot",
         "Added"
       ],
-      "xAxis": [
-        "0",
-        "1200",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "250",
-        "4"
-      ],
-      "xBins": [
-        "taeBins",
-        "TPSdot"
-      ],
-      "yBins": [
-        "taeRates"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "1200",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "250",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "taeBins",
+        "channel": "TPSdot"
+      },
+      "yBins": {
+        "constant": "taeRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64680,23 +64681,24 @@
         "MAPdot",
         "Added"
       ],
-      "xAxis": [
-        "0",
-        "1200",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "250",
-        "4"
-      ],
-      "xBins": [
-        "maeBins",
-        "MAPdot"
-      ],
-      "yBins": [
-        "maeRates"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "1200",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "250",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "maeBins",
+        "channel": "MAPdot"
+      },
+      "yBins": {
+        "constant": "maeRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64710,23 +64712,24 @@
         "Voltage",
         "Dwell"
       ],
-      "xAxis": [
-        "6",
-        "22",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "255",
-        "6"
-      ],
-      "xBins": [
-        "brvBins",
-        "batteryVoltage"
-      ],
-      "yBins": [
-        "dwellRates"
-      ],
+      "xAxis": {
+        "min": "6",
+        "max": "22",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "255",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "brvBins",
+        "channel": "batteryVoltage"
+      },
+      "yBins": {
+        "constant": "dwellRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64740,23 +64743,24 @@
         "Voltage",
         "Injector"
       ],
-      "xAxis": [
-        "6",
-        "22",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "255",
-        "6"
-      ],
-      "xBins": [
-        "brvBins",
-        "batteryVoltage"
-      ],
-      "yBins": [
-        "injBatRates"
-      ],
+      "xAxis": {
+        "min": "6",
+        "max": "22",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "255",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "brvBins",
+        "channel": "batteryVoltage"
+      },
+      "yBins": {
+        "constant": "injBatRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64770,23 +64774,24 @@
         "RPM",
         "Injector"
       ],
-      "xAxis": [
-        "0",
-        "7000",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "720",
-        "5"
-      ],
-      "xBins": [
-        "injAngRPM",
-        "rpm"
-      ],
-      "yBins": [
-        "injAng"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "7000",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "720",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "injAngRPM",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "injAng",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64800,23 +64805,24 @@
         "Air Temperature",
         "Fuel Amount"
       ],
-      "xAxis": [
-        "-40",
-        "160",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "255",
-        "6"
-      ],
-      "xBins": [
-        "airDenBins",
-        "iat"
-      ],
-      "yBins": [
-        "airDenRates"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "160",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "255",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "airDenBins",
+        "channel": "iat"
+      },
+      "yBins": {
+        "constant": "airDenRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64830,23 +64836,24 @@
         "Baro Pressure",
         "Fuel Amount"
       ],
-      "xAxis": [
-        "75",
-        "112",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "255",
-        "6"
-      ],
-      "xBins": [
-        "baroFuelBins",
-        "baro"
-      ],
-      "yBins": [
-        "baroFuelValues"
-      ],
+      "xAxis": {
+        "min": "75",
+        "max": "112",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "255",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "baroFuelBins",
+        "channel": "baro"
+      },
+      "yBins": {
+        "constant": "baroFuelValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64860,23 +64867,24 @@
         "Fuel Temperature",
         "Fuel Amount"
       ],
-      "xAxis": [
-        "-40",
-        "125",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "255",
-        "6"
-      ],
-      "xBins": [
-        "fuelTempBins",
-        "fuelTemp"
-      ],
-      "yBins": [
-        "fuelTempValues"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "125",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "255",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "fuelTempBins",
+        "channel": "fuelTemp"
+      },
+      "yBins": {
+        "constant": "fuelTempValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64890,23 +64898,24 @@
         "Inlet Air Temp",
         "Retard"
       ],
-      "xAxis": [
-        "32",
-        "257",
-        "5"
-      ],
-      "yAxis": [
-        "0",
-        "30",
-        "5"
-      ],
-      "xBins": [
-        "iatRetBins",
-        "iat"
-      ],
-      "yBins": [
-        "iatRetRates"
-      ],
+      "xAxis": {
+        "min": "32",
+        "max": "257",
+        "numDivisions": 5
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "30",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "iatRetBins",
+        "channel": "iat"
+      },
+      "yBins": {
+        "constant": "iatRetRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64920,23 +64929,24 @@
         "Coolant Temp",
         "Advance"
       ],
-      "xAxis": [
-        "-40",
-        "200",
-        "5"
-      ],
-      "yAxis": [
-        "-12.7",
-        "12.7",
-        "5"
-      ],
-      "xBins": [
-        "cltAdvBins",
-        "coolant"
-      ],
-      "yBins": [
-        "cltAdvValues"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "200",
+        "numDivisions": 5
+      },
+      "yAxis": {
+        "min": "-12.7",
+        "max": "12.7",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "cltAdvBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "cltAdvValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64950,23 +64960,24 @@
         "RPM Delta",
         "Advance"
       ],
-      "xAxis": [
-        "-500",
-        "500",
-        "5"
-      ],
-      "yAxis": [
-        "-15",
-        "50",
-        "5"
-      ],
-      "xBins": [
-        "idleAdvBins",
-        "CLIdleDelta"
-      ],
-      "yBins": [
-        "idleAdvValues"
-      ],
+      "xAxis": {
+        "min": "-500",
+        "max": "500",
+        "numDivisions": 5
+      },
+      "yAxis": {
+        "min": "-15",
+        "max": "50",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "idleAdvBins",
+        "channel": "CLIdleDelta"
+      },
+      "yBins": {
+        "constant": "idleAdvValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -64983,23 +64994,24 @@
         "Temp",
         "Duty %"
       ],
-      "xAxis": [
-        "-40",
-        "215",
-        "4"
-      ],
-      "yAxis": [
-        "0",
-        "100",
-        "4"
-      ],
-      "xBins": [
-        "fanPWMBins",
-        "coolant"
-      ],
-      "yBins": [
-        "PWMFanDuty"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "215",
+        "numDivisions": 4
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "fanPWMBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "PWMFanDuty",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65016,23 +65028,24 @@
         "Coolant Temperature",
         "Valve"
       ],
-      "xAxis": [
-        "-40",
-        "315",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "100",
-        "4"
-      ],
-      "xBins": [
-        "iacBins",
-        "coolant"
-      ],
-      "yBins": [
-        "iacOLPWMVal"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "315",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "iacBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "iacOLPWMVal",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65046,23 +65059,24 @@
         "Coolant Temperature",
         "Valve"
       ],
-      "xAxis": [
-        "-40",
-        "215",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "100",
-        "4"
-      ],
-      "xBins": [
-        "iacCrankBins",
-        "coolant"
-      ],
-      "yBins": [
-        "iacCrankDuty"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "215",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "iacCrankBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "iacCrankDuty",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65076,23 +65090,24 @@
         "Coolant Temperature",
         "Motor"
       ],
-      "xAxis": [
-        "-40",
-        "315",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "850",
-        "4"
-      ],
-      "xBins": [
-        "iacBins",
-        "coolant"
-      ],
-      "yBins": [
-        "iacOLStepVal"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "315",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "850",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "iacBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "iacOLStepVal",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65106,23 +65121,24 @@
         "Coolant Temperature",
         "Motor"
       ],
-      "xAxis": [
-        "-40",
-        "120",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "850",
-        "4"
-      ],
-      "xBins": [
-        "iacCrankBins",
-        "coolant"
-      ],
-      "yBins": [
-        "iacCrankSteps"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "120",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "850",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "iacCrankBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "iacCrankSteps",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65136,23 +65152,24 @@
         "Coolant Temperature",
         "Motor"
       ],
-      "xAxis": [
-        "-40",
-        "120",
-        "6"
-      ],
-      "yAxis": [
-        "0",
-        "2000",
-        "4"
-      ],
-      "xBins": [
-        "iacBins",
-        "coolant"
-      ],
-      "yBins": [
-        "iacCLValues"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "120",
+        "numDivisions": 6
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "2000",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "iacBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "iacCLValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65169,23 +65186,24 @@
         "Ignition load",
         "SplitDegrees"
       ],
-      "xAxis": [
-        "0",
-        "{ ignLoadMax }",
-        "5"
-      ],
-      "yAxis": [
-        "0",
-        "40",
-        "4"
-      ],
-      "xBins": [
-        "rotarySplitBins",
-        "ignLoad"
-      ],
-      "yBins": [
-        "rotarySplitValues"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "{ ignLoadMax }",
+        "numDivisions": 5
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "40",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "rotarySplitBins",
+        "channel": "ignLoad"
+      },
+      "yBins": {
+        "constant": "rotarySplitValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65199,23 +65217,24 @@
         "Coolant",
         "WUE %"
       ],
-      "xAxis": [
-        "-40",
-        "210",
-        "9"
-      ],
-      "yAxis": [
-        "0",
-        "240",
-        "6"
-      ],
-      "xBins": [
-        "wueBins",
-        "coolant"
-      ],
-      "yBins": [
-        "wueRates"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "210",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "240",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "wueBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "wueRates",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65229,23 +65248,24 @@
         "Coolant",
         "Fuel Modifier"
       ],
-      "xAxis": [
-        "-40",
-        "110",
-        "9"
-      ],
-      "yAxis": [
-        "0",
-        "400",
-        "6"
-      ],
-      "xBins": [
-        "crankingEnrichBins",
-        "coolant"
-      ],
-      "yBins": [
-        "crankingEnrichValues"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "110",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "400",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "crankingEnrichBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "crankingEnrichValues",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65259,23 +65279,24 @@
         "Coolant",
         "PW"
       ],
-      "xAxis": [
-        "-40",
-        "110",
-        "4"
-      ],
-      "yAxis": [
-        "0",
-        "10",
-        "4"
-      ],
-      "xBins": [
-        "primeBins",
-        "coolant"
-      ],
-      "yBins": [
-        "primePulse"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "110",
+        "numDivisions": 4
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "10",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "primeBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "primePulse",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65289,23 +65310,24 @@
         "Coolant",
         "Enrichment"
       ],
-      "xAxis": [
-        "-40",
-        "110",
-        "4"
-      ],
-      "yAxis": [
-        "0",
-        "200",
-        "4"
-      ],
-      "xBins": [
-        "aseBins",
-        "coolant"
-      ],
-      "yBins": [
-        "asePct"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "110",
+        "numDivisions": 4
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "200",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "aseBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "asePct",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65319,23 +65341,24 @@
         "Coolant",
         "Time"
       ],
-      "xAxis": [
-        "-40",
-        "110",
-        "4"
-      ],
-      "yAxis": [
-        "0",
-        "20",
-        "4"
-      ],
-      "xBins": [
-        "aseBins",
-        "coolant"
-      ],
-      "yBins": [
-        "aseCount"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "110",
+        "numDivisions": 4
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "20",
+        "numDivisions": 4
+      },
+      "xBins": {
+        "constant": "aseBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "aseCount",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65349,23 +65372,24 @@
         "Ethanol",
         "Fuel"
       ],
-      "xAxis": [
-        "0",
-        "100",
-        "10"
-      ],
-      "yAxis": [
-        "50",
-        "250",
-        "5"
-      ],
-      "xBins": [
-        "flexFuelBins",
-        "flex"
-      ],
-      "yBins": [
-        "flexFuelAdj"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 10
+      },
+      "yAxis": {
+        "min": "50",
+        "max": "250",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "flexFuelBins",
+        "channel": "flex"
+      },
+      "yBins": {
+        "constant": "flexFuelAdj",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65382,23 +65406,24 @@
         "Ethanol",
         "Advance"
       ],
-      "xAxis": [
-        "0",
-        "100",
-        "10"
-      ],
-      "yAxis": [
-        "0",
-        "50",
-        "5"
-      ],
-      "xBins": [
-        "flexAdvBins",
-        "flex"
-      ],
-      "yBins": [
-        "flexAdvAdj"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 10
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "50",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "flexAdvBins",
+        "channel": "flex"
+      },
+      "yBins": {
+        "constant": "flexAdvAdj",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65415,23 +65440,24 @@
         "Ethanol",
         "Boost"
       ],
-      "xAxis": [
-        "0",
-        "100",
-        "10"
-      ],
-      "yAxis": [
-        "-100",
-        "200",
-        "5"
-      ],
-      "xBins": [
-        "flexBoostBins",
-        "flex"
-      ],
-      "yBins": [
-        "flexBoostAdj"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 10
+      },
+      "yAxis": {
+        "min": "-100",
+        "max": "200",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "flexBoostBins",
+        "channel": "flex"
+      },
+      "yBins": {
+        "constant": "flexBoostAdj",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65448,23 +65474,24 @@
         "RPM",
         "Window Start"
       ],
-      "xAxis": [
-        "0",
-        "8000",
-        "9"
-      ],
-      "yAxis": [
-        "-100",
-        "100",
-        "11"
-      ],
-      "xBins": [
-        "knock_window_rpms",
-        "rpm"
-      ],
-      "yBins": [
-        "knock_window_angle"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "8000",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "-100",
+        "max": "100",
+        "numDivisions": 11
+      },
+      "xBins": {
+        "constant": "knock_window_rpms",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "knock_window_angle",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65481,23 +65508,24 @@
         "RPM",
         "Window Duration"
       ],
-      "xAxis": [
-        "0",
-        "8000",
-        "9"
-      ],
-      "yAxis": [
-        "0",
-        "100",
-        "10"
-      ],
-      "xBins": [
-        "knock_window_rpms",
-        "rpm"
-      ],
-      "yBins": [
-        "knock_window_dur"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "8000",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "100",
+        "numDivisions": 10
+      },
+      "xBins": {
+        "constant": "knock_window_rpms",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "knock_window_dur",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65514,23 +65542,24 @@
         "RPM",
         "Minimum"
       ],
-      "xAxis": [
-        "0",
-        "8000",
-        "9"
-      ],
-      "yAxis": [
-        "0",
-        "150",
-        "3"
-      ],
-      "xBins": [
-        "oilPressureProtRPM",
-        "rpm"
-      ],
-      "yBins": [
-        "oilPressureProtMins"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "8000",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "150",
+        "numDivisions": 3
+      },
+      "xBins": {
+        "constant": "oilPressureProtRPM",
+        "channel": "rpm"
+      },
+      "yBins": {
+        "constant": "oilPressureProtMins",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65547,23 +65576,24 @@
         "Coolant",
         "Limit"
       ],
-      "xAxis": [
-        "-40",
-        "315",
-        "5"
-      ],
-      "yAxis": [
-        "0",
-        "8000",
-        "3"
-      ],
-      "xBins": [
-        "coolantProtTemp",
-        "coolant"
-      ],
-      "yBins": [
-        "coolantProtRPM"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "315",
+        "numDivisions": 5
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "8000",
+        "numDivisions": 3
+      },
+      "xBins": {
+        "constant": "coolantProtTemp",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "coolantProtRPM",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65580,23 +65610,24 @@
         "Coolant",
         "Offset"
       ],
-      "xAxis": [
-        "-40",
-        "210",
-        "9"
-      ],
-      "yAxis": [
-        "-4",
-        "1",
-        "5"
-      ],
-      "xBins": [
-        "wueBins",
-        "coolant"
-      ],
-      "yBins": [
-        "wueAFR"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "210",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "-4",
+        "max": "1",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "wueBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "wueAFR",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,
@@ -65612,23 +65643,24 @@
         "Coolant",
         "Recommended WUE"
       ],
-      "xAxis": [
-        "-40",
-        "210",
-        "9"
-      ],
-      "yAxis": [
-        "100",
-        "255",
-        "6"
-      ],
-      "xBins": [
-        "wueBins",
-        "coolant"
-      ],
-      "yBins": [
-        "wueRecommended"
-      ],
+      "xAxis": {
+        "min": "-40",
+        "max": "210",
+        "numDivisions": 9
+      },
+      "yAxis": {
+        "min": "100",
+        "max": "255",
+        "numDivisions": 6
+      },
+      "xBins": {
+        "constant": "wueBins",
+        "channel": "coolant"
+      },
+      "yBins": {
+        "constant": "wueRecommended",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": "Recommended WUE",
@@ -65642,23 +65674,24 @@
         "kPa",
         "Advance"
       ],
-      "xAxis": [
-        "0",
-        "511",
-        "20"
-      ],
-      "yAxis": [
-        "0",
-        "50",
-        "5"
-      ],
-      "xBins": [
-        "wmiAdvBins",
-        "map"
-      ],
-      "yBins": [
-        "wmiAdvAdj"
-      ],
+      "xAxis": {
+        "min": "0",
+        "max": "511",
+        "numDivisions": 20
+      },
+      "yAxis": {
+        "min": "0",
+        "max": "50",
+        "numDivisions": 5
+      },
+      "xBins": {
+        "constant": "wmiAdvBins",
+        "channel": "map"
+      },
+      "yBins": {
+        "constant": "wmiAdvAdj",
+        "channel": null
+      },
       "topicHelp": null,
       "showTextValues": false,
       "lineLabel": null,

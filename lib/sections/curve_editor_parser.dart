@@ -30,13 +30,13 @@ class CurveEditorParser {
 
   Future<void> _parseLine(String line) async {
     if (line.startsWith(RegExp(r'^curve\s*='))) {
-      await _parseTable(line);
+      await _parseCurve(line);
     } else {
       await _parseAttributes(line);
     }
   }
 
-  Future<void> _parseTable(String line) async {
+  Future<void> _parseCurve(String line) async {
     final result = (await _parser.parse(line, onlyMatches: true))
         .map((e) => e.text.clearString())
         .toList();
@@ -63,13 +63,31 @@ class CurveEditorParser {
       case 'columnLabel':
         _currentCurve!.columnLabels = result.sublist(1);
       case 'xAxis':
-        _currentCurve!.xAxis = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentCurve!.xAxis = CurveAxis(
+          min: parts[0],
+          max: parts[1],
+          numDivisions: parts.length > 2 ? int.parse(parts[2]) : null,
+        );
       case 'yAxis':
-        _currentCurve!.yAxis = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentCurve!.yAxis = CurveAxis(
+          min: parts[0],
+          max: parts[1],
+          numDivisions: parts.length > 2 ? int.parse(parts[2]) : null,
+        );
       case 'xBins':
-        _currentCurve!.xBins = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentCurve!.xBins = TableBins(
+          constant: parts[0],
+          channel: parts.length > 1 ? parts[1] : null,
+        );
       case 'yBins':
-        _currentCurve!.yBins = result.sublist(1);
+        final parts = result.sublist(1);
+        _currentCurve!.yBins = TableBins(
+          constant: parts[0],
+          channel: parts.length > 1 ? parts[1] : null,
+        );
       case 'topicHelp':
         _currentCurve!.topicHelp = result[1];
       case 'showTextValues':
