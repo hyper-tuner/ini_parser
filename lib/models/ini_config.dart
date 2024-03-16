@@ -674,6 +674,23 @@ class ConstantsExtensions {
   }
 }
 
+class TableBins {
+  TableBins({
+    required this.constant,
+    this.channel,
+  });
+
+  final String constant;
+  final String? channel;
+
+  Map<String, dynamic> toJson() {
+    return {
+      'constant': constant,
+      'channel': channel,
+    };
+  }
+}
+
 class Table {
   Table({
     required this.name,
@@ -772,23 +789,6 @@ class GaugeConfig {
     return {
       'category': category,
       'gauges': gauges.map((c) => c.toJson()).toList(),
-    };
-  }
-}
-
-class TableBins {
-  TableBins({
-    required this.constant,
-    this.channel,
-  });
-
-  final String constant;
-  final String? channel;
-
-  Map<String, dynamic> toJson() {
-    return {
-      'constant': constant,
-      'channel': channel,
     };
   }
 }
