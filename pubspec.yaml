@@ -16,6 +16,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   spec: ^0.2.2
-  very_good_analysis: ^5.0.0+1
+  very_good_analysis: ">=5.0.0+1 <7.0.0"
 
 flutter:
